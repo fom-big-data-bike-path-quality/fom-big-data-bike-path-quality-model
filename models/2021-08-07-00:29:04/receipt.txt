@@ -1,0 +1,1373 @@
+Start Run
+Parameters
+❄ starttime: 2021-08-07-00:29:04
+❄ epochs: 3000
+❄ learningrate: 0.001
+Data Splitter finished with 0 slices
+Data loader finished with 554 dataframes loaded
+✗️ Filtering out 54186371-ad28-4677-8d63-cad88fecc734 (containing slow measurements)
+✓️ Keeping 106a78bf-bae8-468f-88e2-b714802abff0
+✗️ Filtering out e01dce0c-c54f-4a71-8e1c-21ee0f3c52d3 (containing slow measurements)
+✓️ Keeping a7934337-5799-40b1-8727-0c06f5d02b5b
+✗️ Filtering out 6c831911-a81e-43c0-aee2-d201a39d0532 (less than 500 measurements)
+✗️ Filtering out 8555b254-4004-4eea-a322-eea218342033 (less than 500 measurements)
+✗️ Filtering out 6b44fd2b-a877-48eb-8460-720ea59f3738 (less than 500 measurements)
+✗️ Filtering out 731db96d-c29b-4174-98f7-07a367d9a5cf (less than 500 measurements)
+✗️ Filtering out db668102-0fa5-4f59-84c4-2a7b3c211cac (less than 500 measurements)
+✗️ Filtering out e303fa73-d57c-48fb-ba8a-f2068a2b6330 (less than 500 measurements)
+✗️ Filtering out c128c90a-761e-4f20-b863-0d89ecd27ac7 (less than 500 measurements)
+✗️ Filtering out d77b58ec-f449-4804-bc84-888fb008f306 (less than 500 measurements)
+✗️ Filtering out 95237026-ece9-4e15-81ec-bd68b4d32e69 (less than 500 measurements)
+✗️ Filtering out d798ad36-28c1-44e6-b3cb-66b041f9adf2 (less than 500 measurements)
+✗️ Filtering out 2842f82b-f701-4764-a97d-5c32748d11b2 (less than 500 measurements)
+✗️ Filtering out ec17bd12-6fe3-475e-86b6-6a50ce97bee4 (less than 500 measurements)
+✗️ Filtering out 01060686-78a3-469e-a57b-654fedbe09f0 (less than 500 measurements)
+✗️ Filtering out 30821d30-b510-43ce-94f1-35be2a8c8ab4 (less than 500 measurements)
+✗️ Filtering out 5927dff4-b51b-4c27-86c4-c672f392c1e2 (less than 500 measurements)
+✗️ Filtering out 361751a0-0336-422c-a002-ea3ae1549a21 (less than 500 measurements)
+✗️ Filtering out 189e2154-864a-485b-83e9-f77728b23f93 (less than 500 measurements)
+✗️ Filtering out 45b3f714-1983-4c4b-ac40-536aa05361ed (less than 500 measurements)
+✗️ Filtering out 74ccf4bf-4e9f-483f-b1b7-92a8f6c0538e (less than 500 measurements)
+✗️ Filtering out ac6ddac2-cabb-41b3-971e-52ec9a065eba (less than 500 measurements)
+✗️ Filtering out c0bf056e-fe9f-4932-adcb-0f8bd0d2448c (less than 500 measurements)
+✗️ Filtering out 821370bf-4697-476c-9a47-4c1c299a2836 (less than 500 measurements)
+✗️ Filtering out 1a8f1383-b8ca-4914-bfdd-d5dcbe36c9e4 (less than 500 measurements)
+✗️ Filtering out b68378fd-ae8e-4361-840d-f8193006f1d3 (less than 500 measurements)
+✗️ Filtering out 2803f7cd-286c-4a9e-aa1c-1d9c1c120cbd (less than 500 measurements)
+✗️ Filtering out d02b35d4-1a72-4ba1-9f86-68daa573ce54 (less than 500 measurements)
+✗️ Filtering out 51daa45e-c820-43f2-a0e5-a35ed2311123 (less than 500 measurements)
+✗️ Filtering out 1bba0eef-94c7-4ddf-8e75-366de6d629fd (less than 500 measurements)
+✗️ Filtering out 4db7fb60-50fa-46f5-b87c-486e51e826e8 (less than 500 measurements)
+✗️ Filtering out 7a2bc7b9-e664-466d-8488-6dfc6253df1e (less than 500 measurements)
+✗️ Filtering out 6be1ed04-10ce-481e-94a9-f10aff225802 (less than 500 measurements)
+✗️ Filtering out ccaae0af-45b2-486d-8e5e-f890fe9d1be3 (less than 500 measurements)
+✗️ Filtering out 17b07eb8-7c7f-4234-aeb9-974e3e609d46 (less than 500 measurements)
+✗️ Filtering out 836994d0-a162-491c-b4c1-2d11bb5f7e01 (less than 500 measurements)
+✗️ Filtering out 5906cf6c-6664-495e-8804-daa401d9ebcc (less than 500 measurements)
+✗️ Filtering out d7e2ca14-5c2d-4893-a126-db8cc8f04c1a (less than 500 measurements)
+✗️ Filtering out 9889ac9f-761e-4d50-b5ea-0f574a52b985 (less than 500 measurements)
+✗️ Filtering out 48901a67-0440-4f4e-ba58-de64a73530c2 (less than 500 measurements)
+✗️ Filtering out bc62b00b-e5f2-4a4f-8bc3-6edd8dd91deb (less than 500 measurements)
+✗️ Filtering out a31a6fc7-7b12-4678-bdff-14343223cd14 (less than 500 measurements)
+✗️ Filtering out d75075ed-0261-451d-b882-869ccd9f84fa (less than 500 measurements)
+✗️ Filtering out 86bac7ec-a36a-4f80-a08d-51bcd9e29b72 (less than 500 measurements)
+✗️ Filtering out ad5fb0f9-7406-4516-b9b1-2b21b7715f44 (less than 500 measurements)
+✗️ Filtering out f53a4655-d94a-4d77-9988-18a0c76e0581 (less than 500 measurements)
+✗️ Filtering out 178002a9-c104-4c50-a890-cf98f2af42de (less than 500 measurements)
+✗️ Filtering out 8e4f957f-61c0-42c2-92c9-f4963d553769 (less than 500 measurements)
+✗️ Filtering out a957de63-3db4-4597-8ba2-a363ab94b9d7 (less than 500 measurements)
+✗️ Filtering out 3b9d2e98-caeb-4fc4-be3c-f717f6217208 (less than 500 measurements)
+✗️ Filtering out b6844ab8-d693-4ea9-8e0e-4852b025bf1b (less than 500 measurements)
+✗️ Filtering out 4ab2c6db-f5d3-4074-8fb3-bb20871a44c8 (less than 500 measurements)
+✗️ Filtering out 800e7196-8d64-473d-84e9-80345ca3b74a (less than 500 measurements)
+✗️ Filtering out 42216c2b-3c92-48eb-a749-43855673f4ed (less than 500 measurements)
+✗️ Filtering out 52a6c6ec-df0f-4c1b-8f6d-eaf2467ab852 (less than 500 measurements)
+✗️ Filtering out b63d38ee-2f62-4ba1-8f84-e6f722034fb4 (less than 500 measurements)
+✗️ Filtering out 5e5cf15f-b6ab-42d1-a709-f7a0e1b89fd9 (less than 500 measurements)
+✗️ Filtering out 02dae218-2cec-4c5f-bc24-8ef69fbe044b (less than 500 measurements)
+✗️ Filtering out 69cbc31d-647c-4391-b3a9-21d98275d0c3 (less than 500 measurements)
+✗️ Filtering out 67e31ec1-d4b1-4439-b98f-fe97335618fa (less than 500 measurements)
+✗️ Filtering out 9e95610f-e15f-44af-a75f-a0a82b1dad8e (less than 500 measurements)
+✗️ Filtering out 4a631ecb-dee7-4769-a313-3eaffcdcf86d (less than 500 measurements)
+✗️ Filtering out 3b2b6ea2-76e5-43d1-810f-4195f672bfd9 (less than 500 measurements)
+✗️ Filtering out cd99ac28-b483-42a1-9a65-c5abc48fba92 (less than 500 measurements)
+✗️ Filtering out 7e4b04d6-5cdb-44d8-9af5-ecb119534002 (less than 500 measurements)
+✗️ Filtering out c8f21f42-3fd0-493b-a99c-c21f67e2f5e9 (less than 500 measurements)
+✗️ Filtering out d0a94847-144d-45f2-82af-9cd9d71a930a (less than 500 measurements)
+✗️ Filtering out 8e5fa8fb-ae11-4a84-ba77-988c71314b7b (less than 500 measurements)
+✗️ Filtering out 27f4723b-7435-4586-9912-a58db0b8da2a (less than 500 measurements)
+✗️ Filtering out 9e9e83e8-d558-47a2-83b0-b796689646af (less than 500 measurements)
+✗️ Filtering out 54fbe492-70c3-472c-8f89-a9b19b9b715a (less than 500 measurements)
+✗️ Filtering out 276e8a0e-8c56-445a-9072-d813d251ab87 (less than 500 measurements)
+✗️ Filtering out 5efaa7ac-0842-4cf4-a80b-a6dfd65ac299 (less than 500 measurements)
+✗️ Filtering out cbb8d8aa-7574-4ea6-ac7b-71d10599243f (less than 500 measurements)
+✗️ Filtering out f35322f8-9886-40e6-b12d-ca79a14a2434 (less than 500 measurements)
+✗️ Filtering out 0d6f7393-2fa3-4b10-85c8-f43ba304fe2e (less than 500 measurements)
+✗️ Filtering out 3a5c1b86-f898-429c-9452-d3147118d0d1 (less than 500 measurements)
+✗️ Filtering out 17f9c5fc-a0ac-4308-9ad5-8061fa8b3234 (less than 500 measurements)
+✗️ Filtering out d3e8b7c0-4ccd-4532-b570-c1f5672af5aa (less than 500 measurements)
+✗️ Filtering out bccc87f6-32a8-44b7-8f9d-5d880ea78610 (less than 500 measurements)
+✗️ Filtering out 3edbae0d-f9a0-4e60-9d35-9d4e8f20d668 (less than 500 measurements)
+✗️ Filtering out 0476be78-18db-48fd-9e9d-8960d8249447 (less than 500 measurements)
+✗️ Filtering out d933dee6-daae-40cd-bcec-a1736d354157 (less than 500 measurements)
+✗️ Filtering out 90a0e7ad-89b4-4656-a4ee-987f2477d900 (less than 500 measurements)
+✗️ Filtering out bc838897-1cc1-4ae1-9cb8-8fe58fce1081 (less than 500 measurements)
+✗️ Filtering out 002ca6f6-e0a1-4b93-a9df-caa92a22e4bf (less than 500 measurements)
+✗️ Filtering out 726077ff-0c4d-4ea6-aa80-878aefeaf36c (less than 500 measurements)
+✗️ Filtering out 4aa36d86-8a9d-4d7e-b7eb-39672b85864a (less than 500 measurements)
+✗️ Filtering out 6b10b812-7a74-470c-8b21-6983e95f6e86 (less than 500 measurements)
+✗️ Filtering out 3ac9d19e-8275-4e1c-b7f3-5e2b0c4a6144 (less than 500 measurements)
+✗️ Filtering out e5a2b255-3d86-4358-a771-1ff10806ca0a (less than 500 measurements)
+✗️ Filtering out e27123d4-d14a-4f22-9a07-f9c91069f873 (less than 500 measurements)
+✗️ Filtering out f72ba83a-5fa8-4e5d-adec-b6adfd5fc3a0 (less than 500 measurements)
+✗️ Filtering out 22d0f87a-1b5c-4678-90f0-c3bc28d4ea84 (less than 500 measurements)
+✗️ Filtering out 72df7141-58b7-4fcd-83cc-7a4dba73f997 (less than 500 measurements)
+✗️ Filtering out 1a70b588-eb92-4766-8bf3-fec8f7b67eee (less than 500 measurements)
+✗️ Filtering out fb331172-59b0-4918-995a-1b3529f16e6f (less than 500 measurements)
+✗️ Filtering out 4ea8c032-0c13-4038-8653-cabc59d4c3c8 (less than 500 measurements)
+✗️ Filtering out 1dc05db3-30ba-403c-b2b5-7f317cde9a5d (less than 500 measurements)
+✗️ Filtering out 9b1daccc-2045-4169-bcf5-f9b3bc816d3f (less than 500 measurements)
+✗️ Filtering out 575a837f-8df7-43a6-a52d-e9913c1ccd94 (less than 500 measurements)
+✗️ Filtering out 45d422de-6966-414e-b3ae-91ab3935f62c (less than 500 measurements)
+✗️ Filtering out db4c5d69-d7d4-4ac4-ab6f-61060aefa337 (less than 500 measurements)
+✗️ Filtering out 8ad73671-120e-41d2-b234-f5cc8713f4f0 (less than 500 measurements)
+✗️ Filtering out 735aa14c-c6d1-45d6-a612-7617ae68de48 (less than 500 measurements)
+✗️ Filtering out 118bef30-62d2-4361-ad91-b29a2cefbe64 (less than 500 measurements)
+✗️ Filtering out 92487cb9-3461-4b69-a48f-eb59919e0759 (less than 500 measurements)
+✗️ Filtering out 963e01d0-e7b2-4938-9607-c457706cb208 (less than 500 measurements)
+✗️ Filtering out 9534cf97-23d4-4356-b135-5d2964f030e7 (less than 500 measurements)
+✗️ Filtering out f73333b4-029d-4410-b31b-775c42f86ea9 (less than 500 measurements)
+✗️ Filtering out 23cdd57c-e0e3-4778-b404-157ddef46e81 (less than 500 measurements)
+✗️ Filtering out 6ccd4394-9539-4ec8-9a4b-d5de06438acf (less than 500 measurements)
+✗️ Filtering out 12bb8703-b9a7-4e5d-aab8-598abb307545 (less than 500 measurements)
+✗️ Filtering out f3e08984-6f1b-4ee5-a803-1c1d1a9190e4 (less than 500 measurements)
+✗️ Filtering out 7df64349-8a6b-4e48-9f74-be592b1ab307 (less than 500 measurements)
+✗️ Filtering out d105efd4-26c3-4138-bf75-ed634265cd17 (less than 500 measurements)
+✗️ Filtering out 29b36a0e-b7f2-4dcc-b025-9f26e9b4e2c7 (less than 500 measurements)
+✓️ Keeping c66902fc-fc8e-4ec9-84fd-3823f66aede6
+✓️ Keeping f38f7568-bad7-43f7-89c1-e3b59ba8d938
+✓️ Keeping a1d980dd-20a3-4101-9f50-4e05bb663061
+✓️ Keeping baa271eb-7cab-4a26-8d62-52445706b9d4
+✗️ Filtering out 5c244044-b3a1-4a30-aade-5854bcc56db0 (containing slow measurements)
+✓️ Keeping a56446fb-2084-44bf-9a8f-8a102de77732
+✓️ Keeping 8a9a5d5a-927f-4cf8-a70f-a1fe0bfb87bb
+✓️ Keeping f415cb37-d968-4bee-a46b-e712d9c929cc
+✓️ Keeping 625d187d-3401-4f6e-a00c-69f4e621718b
+✓️ Keeping 3b83f602-3a86-49e0-8968-67f2d70a3a9c
+✓️ Keeping b050ae85-118c-4928-be16-18985739cce7
+✓️ Keeping 0051b84c-db36-4d98-9058-cdcfee41d118
+✓️ Keeping 11e0bf84-c559-4051-b686-87ba76165253
+✓️ Keeping f6b1e347-0116-479b-946c-e4881158d0ff
+✓️ Keeping 7fb06581-d849-4b33-a1bf-0dc8ad4c35ba
+✓️ Keeping 6a31cb51-2ba6-46a1-a35c-e187d9ce72d9
+✓️ Keeping b8e8fc33-4ea2-4464-918c-7dbd3425a624
+✓️ Keeping b4481121-034b-4196-9ec1-e29daba0f328
+✓️ Keeping 47f5c738-ed06-4bbc-8521-968ac9aac58e
+✓️ Keeping c83a03c0-74bc-435b-925f-ec14fee9fbfa
+✗️ Filtering out ab4ccfe4-7e1a-47d2-bcc0-99e4b39af900 (containing slow measurements)
+✓️ Keeping 5c1cdfd3-612a-43f4-b882-ce0b9383ead0
+✗️ Filtering out 86379d71-edd3-428f-8ef0-17fa9482c7b5 (containing slow measurements)
+✗️ Filtering out b6f66bb1-e6bc-452c-9994-2e79fc1913a2 (containing slow measurements)
+✓️ Keeping c2c627b9-f393-4b7a-bdfc-fccafc5f6726
+✗️ Filtering out d3c1357c-32e1-4383-af9c-2a9aa8b0d804 (containing slow measurements)
+✗️ Filtering out b706306e-6eb8-43f9-98b3-fbae129f3ea1 (containing undefined surface type)
+✗️ Filtering out 04a76c80-9369-4bf9-8dc8-3952e731dfa9 (containing slow measurements)
+✗️ Filtering out e65ed486-22ce-4f11-90a0-c15918e68757 (containing undefined surface type)
+✗️ Filtering out 48673a6c-648f-45fa-a858-33b1e43b0935 (containing slow measurements)
+✗️ Filtering out 2d9287c9-5699-42d5-9329-0de2360a5da7 (containing slow measurements)
+✓️ Keeping 7ac4081b-e633-4a53-8830-7e7cb05ee0ca
+✗️ Filtering out 44b4623e-23dc-4a8f-999a-b73328bd1013 (containing undefined surface type)
+✓️ Keeping c2389980-6887-4bc5-8c44-4a2eb8b41730
+✓️ Keeping 08b0c0c1-c780-4021-85af-4be06ad1e42d
+✗️ Filtering out 88d1aff9-d00d-4097-8df8-dbcfefd47413 (containing undefined surface type)
+✗️ Filtering out 5f942673-11a9-47d0-b881-cc5e6ce87819 (containing slow measurements)
+✗️ Filtering out ee5aedb5-d6a2-4d2b-9d3f-7ca65cb33e02 (containing slow measurements)
+✗️ Filtering out fe82437b-f538-40db-90cd-138d9c5d6d33 (containing slow measurements)
+✗️ Filtering out 959d2221-067c-457d-9e1c-8dbbb1bf8ee3 (containing slow measurements)
+✗️ Filtering out ba02cc0b-8911-4881-9a4d-f121f3322e00 (containing slow measurements)
+✗️ Filtering out e468fc94-c137-4765-9dc2-5f070bc3938c (containing slow measurements)
+✓️ Keeping b4df4511-e756-4da8-aefd-fc50ac6d9a9f
+✗️ Filtering out 722ac2a9-eb3a-4a85-ae57-f58e0e8dc43a (containing undefined surface type)
+✗️ Filtering out c5aaf5ed-ddd8-4bc4-b1c9-88a21797be54 (containing slow measurements)
+✗️ Filtering out f6600fa7-a72a-4b54-9b31-2b658aa62509 (containing slow measurements)
+✗️ Filtering out 5c3aa1a2-4861-4994-be89-139346b1fa7f (containing slow measurements)
+✗️ Filtering out 5bae239c-3fd0-4dda-964b-8137f4db925b (containing slow measurements)
+✓️ Keeping 87b61c75-be01-40c7-bfab-d90a4d088ad8
+✓️ Keeping bf6c7a94-7808-484e-b7df-840a25260e02
+✓️ Keeping 92b967dd-bc87-421d-b563-ac475eee8461
+✗️ Filtering out 74d866e3-74e9-4b2b-b66b-0d7497cb1e15 (containing slow measurements)
+✗️ Filtering out 78686fac-ccd3-4272-83fa-ba72de4e410e (containing slow measurements)
+✗️ Filtering out d4767419-a3a1-4932-b7ed-19ee57aeffa5 (containing slow measurements)
+✗️ Filtering out aeac1306-07e4-4dc8-b052-49e01dda9757 (containing undefined surface type)
+✗️ Filtering out 3284b353-8bd2-4add-94e1-911a0de738b5 (containing undefined surface type)
+✗️ Filtering out b0dc5083-8fbc-41fa-a371-6a742fa032b0 (containing undefined surface type)
+✗️ Filtering out 700f97ff-671a-4d35-8b6b-bf0cefa6df86 (containing undefined surface type)
+✗️ Filtering out e57cb519-2cc1-41ae-9c6f-7f1ac55c2936 (containing undefined surface type)
+✗️ Filtering out 6e37b520-9504-45a4-b770-bfd8365b127e (containing undefined surface type)
+✗️ Filtering out 09f1ccc1-c780-46cb-a7d8-d080dfb634c3 (containing undefined surface type)
+✗️ Filtering out b6df21f3-8121-4ada-9739-8b41c57226fa (containing undefined surface type)
+✗️ Filtering out be20c21b-dcd1-424b-b217-ff703c84dc26 (containing undefined surface type)
+✗️ Filtering out ea52a591-ac58-4150-bf13-45703ef3f506 (containing undefined surface type)
+✗️ Filtering out 176a0df1-bdae-40bb-8222-038e051083eb (containing undefined surface type)
+✗️ Filtering out cd5f7966-0edf-4c4c-abfd-8bde7b846376 (containing undefined surface type)
+✗️ Filtering out a0c3dedd-dcf8-448c-ab46-6d653734a6ac (containing undefined surface type)
+✗️ Filtering out 4976ecb5-d831-42c6-98d8-d464df41484f (containing undefined surface type)
+✗️ Filtering out 6d9ca2f2-0891-4bc0-8da5-b62bb49d3024 (containing undefined surface type)
+✗️ Filtering out 2b057142-679b-4dab-81c0-e40ee1847d55 (containing undefined surface type)
+✗️ Filtering out ed866134-457e-4213-bd23-16123cc2f920 (containing undefined surface type)
+✗️ Filtering out 24c26e89-2160-4d3c-a930-e116fe25d074 (containing undefined surface type)
+✗️ Filtering out 5c0b7deb-c26d-4ad4-908a-d71b93d433c3 (containing undefined surface type)
+✗️ Filtering out 8dd67284-b937-4106-afc6-eec75579da4d (containing undefined surface type)
+✗️ Filtering out a4ff5b89-c0fe-4381-96c9-878b3fbb34bc (containing undefined surface type)
+✗️ Filtering out 6c343cf3-dde4-4678-a9f1-fc5a3f5efcec (containing undefined surface type)
+✗️ Filtering out 124c25a7-f0e8-471c-b80b-70b3a51ffb29 (containing undefined surface type)
+✗️ Filtering out 87967cff-1026-49f1-93ef-6eb738cb27e9 (containing undefined surface type)
+✗️ Filtering out 5a6c861f-e28c-48e0-9161-c3552241caff (containing undefined surface type)
+✗️ Filtering out cf0a64a6-5fee-4c05-b5b2-19c7de584eaf (containing undefined surface type)
+✗️ Filtering out 8aae975b-0143-4cfc-b7e3-21c6d6d622b5 (containing undefined surface type)
+✗️ Filtering out d0a89f7f-df1a-4c65-aaec-ae4aed3ba25e (containing undefined surface type)
+✗️ Filtering out f1816de9-cc67-4d8f-8bf8-868a5014658d (containing undefined surface type)
+✗️ Filtering out d5a6719c-dfc2-47d4-997f-e70d6893622d (containing undefined surface type)
+✗️ Filtering out a7b9cb97-c379-453e-9f1d-ba588c0aa319 (containing undefined surface type)
+✗️ Filtering out a896a0d1-eddd-42f8-8308-2a3c07732dfb (containing undefined surface type)
+✗️ Filtering out 146974d4-7158-4a3b-857c-5b71532d6262 (containing undefined surface type)
+✗️ Filtering out f4477174-7296-4a74-8597-41516e35a269 (containing undefined surface type)
+✗️ Filtering out af1dea1a-ab2d-450c-b7fc-32ab968a00b6 (containing undefined surface type)
+✗️ Filtering out 015e9398-15e0-40f1-9fa0-7703a04f8a34 (containing undefined surface type)
+✗️ Filtering out d269dee9-25fc-4e78-807b-5154de500b41 (containing undefined surface type)
+✗️ Filtering out b581ff24-0989-451c-aa50-2b66d6ed3075 (containing undefined surface type)
+✗️ Filtering out a3d1a29e-5b8a-4cb8-8662-7ae1f7213624 (containing undefined surface type)
+✗️ Filtering out 36e2f31b-1b98-43c8-8152-7535f71b7553 (containing undefined surface type)
+✗️ Filtering out 4a266742-4498-487a-b927-bdb67a7192d2 (containing undefined surface type)
+✗️ Filtering out b026038d-99b1-4144-91a8-3ead3d464ad7 (containing undefined surface type)
+✗️ Filtering out 9acac3bb-c0de-419e-bf37-a7da930bab29 (containing undefined surface type)
+✗️ Filtering out 8a74c3eb-f844-4685-bfc1-48cac83c7361 (containing undefined surface type)
+✗️ Filtering out 2f45454c-5844-46b1-9255-e21ac1408911 (containing undefined surface type)
+✗️ Filtering out 4f707783-1d05-489d-be1d-73d620a7af9f (containing undefined surface type)
+✗️ Filtering out a5081e76-072e-4bce-9f13-56edced59f8a (containing undefined surface type)
+✗️ Filtering out f4426609-e69a-4a2e-91ad-050203edac7c (containing undefined surface type)
+✗️ Filtering out 4ca1c360-35ed-4c0c-b20b-fe505d209524 (containing undefined surface type)
+✗️ Filtering out d22e9ae4-b79b-459c-9ab8-1c3d65ac9328 (containing undefined surface type)
+✗️ Filtering out 45f68780-4da4-4be7-b003-b28805f24958 (containing undefined surface type)
+✗️ Filtering out 7f1813ff-e6d9-43bd-a911-fb4252c1cbb6 (containing undefined surface type)
+✗️ Filtering out 64768e7e-0e1c-4dda-9f77-3ddf78a6ab3c (containing undefined surface type)
+✗️ Filtering out 8ad61e0a-1d63-4f44-9946-983377c40ced (containing undefined surface type)
+✗️ Filtering out 986d991e-d35f-46e1-8395-7cd5491351e1 (containing undefined surface type)
+✗️ Filtering out b6e26c34-275c-4920-988c-7cf5bf62052e (containing undefined surface type)
+✗️ Filtering out ad886f0c-cdfc-4b69-ab34-4fc3672c2987 (containing undefined surface type)
+✗️ Filtering out 8f2ab739-0626-44a1-b8ed-8e7021c24ee6 (containing undefined surface type)
+✗️ Filtering out 4727dcff-4343-42c9-9004-fe02cee1f539 (containing undefined surface type)
+✗️ Filtering out f805f113-22cc-4598-a1cb-c3014c004220 (containing undefined surface type)
+✗️ Filtering out c4d55f97-b291-4dba-8761-e40d69e85cb3 (containing undefined surface type)
+✗️ Filtering out 4e054fbb-59d3-40f8-9fdc-61ca446b7ea8 (containing undefined surface type)
+✗️ Filtering out 7cd61d2f-7c4f-44a8-b698-d2e859752137 (containing undefined surface type)
+✗️ Filtering out 987322da-da9a-4bf2-aea3-307190610ae7 (containing undefined surface type)
+✗️ Filtering out 7ed4414a-9a71-41f1-a033-93703050e3b6 (containing undefined surface type)
+✗️ Filtering out a8c516c6-4df4-49f8-ac06-7165961c85ba (containing undefined surface type)
+✗️ Filtering out e4a928b1-6ef4-4012-a592-d6d9d1ed980d (containing undefined surface type)
+✗️ Filtering out 5bd5dee6-80b6-4e3c-9c1f-206fbb74a9ee (containing undefined surface type)
+✗️ Filtering out 27cedc12-0590-4cc0-bcd4-15f40c568ba7 (containing undefined surface type)
+✓️ Keeping bf9c109e-d287-4fa6-b361-168685a96399
+✓️ Keeping 79c33a23-1e50-428c-90aa-233c79ec2d4c
+✓️ Keeping 82ad13de-60f4-4d82-b1f2-caf94c7a070d
+✓️ Keeping 33f451c6-f2f2-461d-a6b8-772be7650982
+✗️ Filtering out 06e67d46-6f4e-4307-aca0-93069d7c9d79 (containing slow measurements)
+✗️ Filtering out 549d4af0-dea3-4f06-8989-33a1459e6806 (containing slow measurements)
+✓️ Keeping 33d61e05-63a9-46d0-aff8-e088617d5c40
+✓️ Keeping 495ac178-6b21-4517-b17a-18ee08d3944c
+✓️ Keeping af39c3f1-0592-47e3-9a89-1ae090e66d97
+✓️ Keeping 6e8747ea-d405-4b39-89e8-20fc915e1e8e
+✗️ Filtering out 1b1ea227-1fd7-40e8-9d54-94b8ba437354 (containing slow measurements)
+✓️ Keeping 12b2c690-c405-419e-a3c5-f038391c958d
+✓️ Keeping f75b8c7b-2bec-47df-b17a-c2b2d00ecd70
+✓️ Keeping e7697844-8149-4b54-90be-c3bc98726e50
+✓️ Keeping e913b778-ff87-410e-9100-97243b317fdc
+✓️ Keeping a29a6d6b-9545-467c-8fed-d104e0f1f7c8
+✓️ Keeping 42d249c6-9ee6-4165-a388-52c0bf71e29e
+✗️ Filtering out e70da780-ae6d-40ae-85d8-5838b1440a37 (containing slow measurements)
+✓️ Keeping 8eeff2c5-961f-4722-8239-b82216060c4b
+✗️ Filtering out 6f5f7527-abb6-4cac-8582-b7c45a60e15f (containing slow measurements)
+✗️ Filtering out fb859f46-a2ff-4009-b694-98acd9487cf6 (containing slow measurements)
+✓️ Keeping 035557ca-b88f-427d-98a8-adf2d0f66d6f
+✓️ Keeping 05760797-bb27-4ea1-b1d1-25501f6e8c97
+✓️ Keeping dadf321c-c2e8-42ea-ab49-6ad3cb524502
+✗️ Filtering out b462ef99-cf06-4268-a83c-b2e552c37e86 (containing slow measurements)
+✓️ Keeping ee5f7e77-2528-4ec1-a97d-8a2bfb69dece
+✓️ Keeping 48f673a4-45a0-412b-bdca-447e8e30447b
+✗️ Filtering out 071cd0cf-8d9f-46a7-813a-dddfdd836f37 (containing slow measurements)
+✓️ Keeping e5412d4d-6572-4574-9c5e-e46b024522bb
+✗️ Filtering out 1c3a9fb0-d94e-4e4a-888b-d0933707e4db (containing slow measurements)
+✓️ Keeping b2a224fe-ae23-4dfb-b960-4a77ebb5147a
+✗️ Filtering out c51c70f4-2626-4925-9013-78811996b122 (containing slow measurements)
+✓️ Keeping f2b1e41b-281c-4765-88a9-4d4c94575d4e
+✓️ Keeping ae1ecfb9-c1d0-4e7c-9ca9-d8b0ee39bd77
+✗️ Filtering out 15272660-0a49-4769-8da0-80e94c4e204c (containing slow measurements)
+✗️ Filtering out 9349c4ea-1149-4c9d-bd4d-b75044bb0f47 (containing slow measurements)
+✓️ Keeping 3d4dced8-3ef6-4efa-a849-4b9fd8c982b4
+✓️ Keeping 017e243a-d661-4291-948b-fc6d882c6839
+✓️ Keeping 35d28426-ad99-4dc6-9188-4df7bedc6ab9
+✗️ Filtering out ee010f34-02c2-4e92-9380-4c976c14d4f5 (containing slow measurements)
+✗️ Filtering out d6be4739-6941-4fcc-b5d1-06cf50732920 (containing slow measurements)
+✓️ Keeping c04ef01d-2266-4025-813a-c12de2d669e3
+✗️ Filtering out 7c588e76-2225-4d5e-bdbd-aed3e9023454 (containing slow measurements)
+✗️ Filtering out 11c29a24-0785-42b6-b6fa-c18a696c1456 (containing slow measurements)
+✓️ Keeping e0d01177-1a52-44b2-84bb-e5206783a38b
+✓️ Keeping b5568733-b975-4703-9475-0347773e3f4c
+✓️ Keeping 64835662-1495-434b-8199-5ddd993703f4
+✓️ Keeping 1794cd52-347e-45fd-867a-f45ad13b46f2
+✗️ Filtering out 348040d6-2730-49aa-b5cb-46915de2551f (containing slow measurements)
+✓️ Keeping eedb0427-117e-436f-9e91-045f12b54121
+✓️ Keeping d8809dcb-5152-4a0c-b89e-61daa3f61fde
+✗️ Filtering out 978afba8-7522-48b3-bb39-154886db97c9 (containing slow measurements)
+✓️ Keeping 399b5f39-61e6-4ec2-9dc3-318c0f8ac58e
+✓️ Keeping 9a1bf032-3b1b-429c-9fd3-84f8ebb0adfc
+✓️ Keeping e03372cd-f115-49fe-9efb-a96095e5339e
+✓️ Keeping 62abd868-3578-45f5-bfc4-cace55e4e447
+✗️ Filtering out dff6b57d-1332-421e-b66e-bef1e6f0d635 (containing slow measurements)
+✓️ Keeping 61813adc-f228-446c-a933-f9347e1fc533
+✓️ Keeping 58fb5737-90c4-4420-bcff-632d9d1e3122
+✗️ Filtering out f304a5f2-9cfd-4b6c-a85a-16e06a807061 (containing slow measurements)
+✓️ Keeping 84d7f453-fe73-437a-ae53-e880e1d30f52
+✓️ Keeping 65a888b7-7227-4828-bc61-198a5abd3948
+✓️ Keeping e13b7dfe-5186-4569-855c-7d2bc04eff03
+✗️ Filtering out 780996e4-d3ab-421e-8624-0370f202f24d (containing slow measurements)
+✓️ Keeping 38951f76-924c-49a3-b0af-ed73b1e7f4b8
+✓️ Keeping 9b57eaf7-545b-4d25-8171-e8a39d1b1bb8
+✓️ Keeping 87d79dc7-074b-4b61-ac54-61a7d6ff7c73
+✗️ Filtering out bba21722-e645-4235-892b-d519100468b8 (containing slow measurements)
+✗️ Filtering out 816e9e1e-44bb-479d-8868-d04bfb80f312 (less than 500 measurements)
+✓️ Keeping d1ae333f-6c7e-4e9b-8911-dbb943808a7f
+✓️ Keeping 4eabaa0c-e63f-4356-a530-81d8fc874cc9
+✓️ Keeping df7fa300-166c-4188-b75a-b285c1661439
+✓️ Keeping 86cf3745-9118-44ae-b1bd-15c449a2d33d
+✗️ Filtering out 547bf485-e8e0-4fae-85c7-e47fb8a03116 (containing slow measurements)
+✓️ Keeping 4b1c48eb-7e16-4740-9749-22751dc57422
+✓️ Keeping a03a889d-9657-4eac-a053-ceeaae6914e7
+✗️ Filtering out 49c6faf2-7eca-48e4-bdef-c139e7412b64 (less than 500 measurements)
+✗️ Filtering out 6ae262b6-6fde-45c1-b7ec-2570438ce0e7 (less than 500 measurements)
+✗️ Filtering out c4cf250d-e512-48c0-828f-717b1cc468f5 (less than 500 measurements)
+✗️ Filtering out 281c87a9-20e7-4ca9-b274-5854787cee89 (less than 500 measurements)
+✗️ Filtering out 271d01c8-a2d2-463c-b178-bd3fa772c4c6 (less than 500 measurements)
+✗️ Filtering out 48717a60-8733-4445-a425-e52bdc79f914 (less than 500 measurements)
+✗️ Filtering out f87c556d-6ec0-44d2-8831-d3f9f1f89cdd (less than 500 measurements)
+✗️ Filtering out 59e55964-a3b9-47c8-9cf8-2ba262be8685 (less than 500 measurements)
+✗️ Filtering out a738676f-7a58-4675-b83b-d82bb448dc05 (less than 500 measurements)
+✗️ Filtering out a2ef1c92-82c7-4178-b51f-90dfd79a2790 (less than 500 measurements)
+✗️ Filtering out 1bd81e81-ce72-41d1-a8eb-9963b7109af0 (less than 500 measurements)
+✗️ Filtering out b57f961c-793a-4f87-a18d-6ff8137e16e3 (less than 500 measurements)
+✗️ Filtering out 0ceca611-b83d-49bf-93f3-f796d575b1ee (less than 500 measurements)
+✗️ Filtering out f04e23d2-85e0-4af9-bdec-5984f09f16f0 (less than 500 measurements)
+✗️ Filtering out 297f63aa-3dd2-4ea4-b2d6-d0ad06395a77 (less than 500 measurements)
+✗️ Filtering out 1c28e6cb-ad32-4018-b737-e95da85d7f86 (less than 500 measurements)
+✗️ Filtering out b4c56970-0193-434d-97bf-1349de8ac1fc (less than 500 measurements)
+✗️ Filtering out f9f4211c-f97d-4219-8281-93d09c8e1f54 (less than 500 measurements)
+✗️ Filtering out 8fe2d1c7-455f-4b13-8084-e5968326e51f (less than 500 measurements)
+✗️ Filtering out 2edff93e-d087-4bae-9e7c-dfacb3cc4356 (less than 500 measurements)
+✗️ Filtering out 1426bbae-6f28-488d-84af-88ddc90221aa (less than 500 measurements)
+✗️ Filtering out d2b143df-8b6d-4294-8122-bd303d941cc4 (less than 500 measurements)
+✗️ Filtering out 28ab5aef-9a93-46f0-9d26-71cf8a824ba5 (less than 500 measurements)
+✓️ Keeping 71285e2e-cb72-41ae-898e-489834228060
+✓️ Keeping a8a28ed3-a2b6-4cd0-81f2-c0a0f3daef66
+✗️ Filtering out 5e9004f5-6636-4014-8418-139dbdaca7d5 (containing slow measurements)
+✗️ Filtering out 18c7566d-4c9c-4387-b0cb-e837b01fb7e4 (containing slow measurements)
+✓️ Keeping d3e2e643-5ae9-4144-90b5-485800940df9
+✓️ Keeping 3c3a35be-cb05-40a5-a14b-ad8f958154d3
+✓️ Keeping 859afc28-2052-41bc-b7f5-ca39db044c4c
+✗️ Filtering out 5fd9a457-1f3e-4b16-8e1b-88e975c61122 (containing slow measurements)
+✗️ Filtering out c8ddbdb1-2126-4977-a37c-5eee4e177598 (containing slow measurements)
+✓️ Keeping c2ef1473-b900-4199-9615-902d9f62348f
+✓️ Keeping 580455a3-7ccf-49e9-9cc1-00fc39ad6175
+✓️ Keeping 8ae45e1c-e14b-46ee-9463-8c09d8afcf60
+✓️ Keeping f0920826-4810-454d-98cb-ce45cfd4b2e8
+✓️ Keeping 074de208-a4eb-4b1c-b4ea-90d5b4107f7a
+✗️ Filtering out 229de40c-175b-4de3-adcd-07e6397aee23 (containing slow measurements)
+✗️ Filtering out 57d53202-eb40-416a-ad95-1e98a11532cf (less than 500 measurements)
+✗️ Filtering out 4e016e8e-e23e-4b6b-8906-39aafaede71c (less than 500 measurements)
+✗️ Filtering out 7c6ff0ec-427b-4268-b470-5f05ae261071 (less than 500 measurements)
+✗️ Filtering out 2403d453-c165-48b6-9c2e-bfa74bcaca4c (less than 500 measurements)
+✗️ Filtering out 889e60d0-aaa3-46b4-802f-89fce03101ed (less than 500 measurements)
+✗️ Filtering out e234abed-a48a-4b41-a030-658436db1290 (less than 500 measurements)
+✗️ Filtering out 9349c27d-0427-4db2-bbe5-2cd2e65bb47a (less than 500 measurements)
+✗️ Filtering out 1599f980-76bd-4bd3-8203-ed5e3fbfe34b (less than 500 measurements)
+✗️ Filtering out c6217006-06c1-4ef4-bace-f2793bf8ce6c (less than 500 measurements)
+✗️ Filtering out 32dbdfee-a147-4759-b9f2-8f67c766343a (less than 500 measurements)
+✗️ Filtering out 9484f999-c01d-4ef2-8ed4-64f6c19ad76d (less than 500 measurements)
+✗️ Filtering out 2522c287-8693-44ac-881b-4232bd9c4ea6 (less than 500 measurements)
+✗️ Filtering out 73c44974-774c-4328-a2d8-65cc7c63cfc1 (less than 500 measurements)
+✗️ Filtering out 29d0018a-6756-4b86-ba39-0f59aa62c68f (less than 500 measurements)
+✗️ Filtering out 40ee0614-8fb4-414e-a537-79998c85a5bf (less than 500 measurements)
+✗️ Filtering out dd924e76-1bc5-4e0f-927b-4338c7c9069d (less than 500 measurements)
+✗️ Filtering out d1a9fe2b-fe86-48b6-88bd-318dec169cf6 (less than 500 measurements)
+✗️ Filtering out c83bd910-486d-4e5c-8908-0e77fffa82d0 (less than 500 measurements)
+✗️ Filtering out 6ebcda7e-7f56-4c33-86a1-338f1f80e3fd (less than 500 measurements)
+✗️ Filtering out 5abbf552-e813-4d3e-a34b-ced80b801cb1 (less than 500 measurements)
+✗️ Filtering out e08eddbf-8700-437b-bae6-4fd8095c2bdc (less than 500 measurements)
+✗️ Filtering out e8a29561-5b57-4622-a3cc-e10359db06d9 (less than 500 measurements)
+✗️ Filtering out c513bc77-4ba2-4550-ad42-32ff0f449617 (less than 500 measurements)
+✗️ Filtering out 14b442aa-35f6-4d77-8852-9b6b32bc99f5 (less than 500 measurements)
+✗️ Filtering out f46e5c79-827b-4523-a84d-330f336aff85 (less than 500 measurements)
+✗️ Filtering out 56abea6a-d8ea-47f5-86d5-44ff4a510f6a (less than 500 measurements)
+✗️ Filtering out 3645fef0-5cc6-461e-ab0a-47ca8ae12567 (less than 500 measurements)
+✗️ Filtering out ad368cb6-5cc7-4692-83e8-1e3d0b137f56 (less than 500 measurements)
+✗️ Filtering out cc4930a6-9bc0-47d9-a684-9db06c6877c2 (less than 500 measurements)
+✗️ Filtering out 0952533b-e5de-49ce-ad23-233663bd9cb9 (less than 500 measurements)
+✗️ Filtering out 77452738-62dc-49c1-9a8b-9c02e9043db0 (less than 500 measurements)
+✗️ Filtering out bab58a37-44d7-49d4-9726-75f5e4ceacfa (less than 500 measurements)
+✗️ Filtering out 6dbc1c5d-821f-40fb-949f-792b16c1c501 (less than 500 measurements)
+✗️ Filtering out 00d7758f-54f9-4f85-b532-96ce5c06e8e2 (less than 500 measurements)
+✗️ Filtering out 8e79d9c2-a94e-4d4d-8930-3adbb8507f78 (less than 500 measurements)
+✗️ Filtering out 33b9f516-c165-4aaa-b726-9469123df261 (less than 500 measurements)
+✗️ Filtering out ce14d89f-8bfe-4fba-a43e-1932edebf84e (less than 500 measurements)
+✗️ Filtering out def87d1b-98bb-4f5a-94d6-c6f5af688317 (less than 500 measurements)
+✗️ Filtering out ebf240bb-3cbc-445a-ae9f-b3b4d73a6448 (less than 500 measurements)
+✗️ Filtering out 3ec85490-7d71-4da2-9cae-5934222b8f7f (less than 500 measurements)
+✗️ Filtering out 6446409f-d00a-4cad-96cd-ba5796f8b8e0 (less than 500 measurements)
+✗️ Filtering out c1cd1812-95e3-423d-b0a7-e50420169ffb (less than 500 measurements)
+✗️ Filtering out c2f525a5-60ef-4edf-a616-3484e738c8dd (less than 500 measurements)
+✗️ Filtering out 742c28aa-b9df-468c-a3d4-e90a072383c8 (less than 500 measurements)
+✗️ Filtering out d75daf77-7471-4989-b023-83eca5d9cf65 (less than 500 measurements)
+✗️ Filtering out 0e6acfd8-8b9e-44d4-9e99-79fd530f580f (less than 500 measurements)
+✗️ Filtering out 2b16e5d2-6e4b-4af4-af0b-86de946d22aa (less than 500 measurements)
+✗️ Filtering out 7188a714-597e-4b84-8bd1-7aea1a850a38 (less than 500 measurements)
+✗️ Filtering out 689f3503-b56d-4f4f-b8ce-583f7d5ccd42 (less than 500 measurements)
+✗️ Filtering out ce390302-8e41-4f25-884d-d4a9ddeec92f (less than 500 measurements)
+✗️ Filtering out 26bc407e-75df-4a90-b558-6f64c2776b6e (less than 500 measurements)
+✗️ Filtering out 4fdd1c8e-2442-4c3c-841d-d23c74923875 (less than 500 measurements)
+✗️ Filtering out 158c58af-71a3-490d-8570-86c65d74f196 (less than 500 measurements)
+✗️ Filtering out a3f5d048-3472-4b87-80d2-486a8991d206 (less than 500 measurements)
+✗️ Filtering out 407d68f5-ee4a-4bb4-a6d1-a4b740beaf74 (less than 500 measurements)
+✗️ Filtering out f08b809e-42ce-4117-af33-c86b374ae901 (less than 500 measurements)
+✗️ Filtering out bea0e3db-ba41-4eb3-ae53-1c59d151529f (less than 500 measurements)
+✗️ Filtering out 2437c078-853a-412c-8e9c-5619335223be (less than 500 measurements)
+✗️ Filtering out 028c5deb-688b-461e-9236-e83169d3e8aa (less than 500 measurements)
+✗️ Filtering out b6d500bb-2c1b-4dd3-9b20-40bd63bc4b9c (less than 500 measurements)
+✗️ Filtering out 962d03fd-577a-41c6-882c-67da7cacb524 (less than 500 measurements)
+✗️ Filtering out c550bb1f-d307-46fb-a8d3-92e016226785 (less than 500 measurements)
+✗️ Filtering out 4594e997-6ec6-4925-8bbf-d13b74d99bf4 (less than 500 measurements)
+✓️ Keeping 75bf6224-fa77-4343-a29d-a73a3c903091
+✓️ Keeping 5ea1c125-3802-4c77-8f57-9679db927583
+✗️ Filtering out 3fba9d63-9696-450e-ab39-478d09a7598e (containing undefined surface type)
+✓️ Keeping 8cc3266c-cff9-42e9-ab28-39de524e119f
+✗️ Filtering out 6d47213d-106c-4038-9b39-b2b4cd3a6510 (containing slow measurements)
+✗️ Filtering out f79114ec-eeea-4e65-8d9d-a0b9e31fc35a (containing slow measurements)
+✓️ Keeping b9ef3022-7644-4c0f-9501-1ebe6a437dd0
+✗️ Filtering out 1a38961d-8d91-409a-b633-58ea0fafd221 (containing slow measurements)
+✓️ Keeping 639b8ced-3e2b-4575-bbc4-534931a0dbf1
+✓️ Keeping f18fbd62-fbd3-4595-a427-8a5030f7c774
+✓️ Keeping 89814ac6-3eeb-4766-be3b-2ee4626a73bb
+✓️ Keeping fbd00f22-dbdd-41a8-9f54-8b447831f95e
+✗️ Filtering out 3056da6a-a74c-4f4a-98e5-5b110e78e024 (containing undefined surface type)
+✓️ Keeping 8d0a1080-c6fa-4553-abab-ccb071608935
+✓️ Keeping ace4d01c-bc20-4884-aa22-4314e288d346
+✓️ Keeping 496cbedb-ca80-4ac4-9d91-2440b843bafe
+✗️ Filtering out 2caa1951-6748-4204-a9df-2b269202942c (less than 500 measurements)
+✗️ Filtering out 46b29b62-e00c-4d4a-881b-fd60344c311a (less than 500 measurements)
+✗️ Filtering out 38ab0834-8129-486d-884b-b84e25d89a8b (less than 500 measurements)
+✗️ Filtering out 0cc6def8-02e1-4219-a150-5399ce669856 (less than 500 measurements)
+✗️ Filtering out cb68d1ea-fe1c-4b5a-b5d7-75b07167ee95 (less than 500 measurements)
+✗️ Filtering out e2e71201-b5d5-4420-afa2-9bd74f5e7763 (less than 500 measurements)
+✗️ Filtering out 10a4831e-c067-4a70-8052-9139118ba5a0 (less than 500 measurements)
+✗️ Filtering out d51d7148-b23a-4a4c-b593-9f26ed505123 (less than 500 measurements)
+✗️ Filtering out bc967057-ccfe-408b-969b-da1dbf026510 (less than 500 measurements)
+✗️ Filtering out 2597ac46-21ee-4eb7-850d-882e4b6ef1ed (less than 500 measurements)
+✗️ Filtering out 7f522a9e-cfe6-4e36-8f38-a3f885870983 (less than 500 measurements)
+✗️ Filtering out f9b4f04f-447a-4f69-ba07-c78ad8d97f1b (less than 500 measurements)
+✗️ Filtering out a6a996f1-9676-457d-8b71-314091d3d08f (less than 500 measurements)
+✗️ Filtering out 4f99a40b-98e7-438c-b78d-240f4b63654b (less than 500 measurements)
+✗️ Filtering out 0cc99107-cf69-42e4-96b8-2c81272fff43 (less than 500 measurements)
+✗️ Filtering out 728084d3-dd7b-400e-9012-f780105a35dc (less than 500 measurements)
+✗️ Filtering out 4b565f57-0e3a-4c3e-a075-284ce46315a1 (less than 500 measurements)
+✗️ Filtering out 987193c9-131b-4e6d-a2d1-390ecf6ad6fa (less than 500 measurements)
+✗️ Filtering out 659a296f-7351-45f7-9f5e-662326714028 (less than 500 measurements)
+✗️ Filtering out bdaa7181-1076-4a37-a365-8a03b4956348 (less than 500 measurements)
+✗️ Filtering out 4bf03c98-3eff-4a80-ad42-f7a12db61173 (less than 500 measurements)
+✗️ Filtering out b99a6300-94d8-4f22-aa98-aeb56ae661b4 (less than 500 measurements)
+✗️ Filtering out e3ea2b27-f9aa-4fc8-bb14-58f179b29bbe (less than 500 measurements)
+✗️ Filtering out 15a258fd-a432-4930-ac43-b4798da747d4 (less than 500 measurements)
+✗️ Filtering out 5774df40-4500-42d7-a920-c7d59ada5f92 (less than 500 measurements)
+✓️ Keeping 73d59104-32f3-419d-99d6-730f85752b2e
+✓️ Keeping 552e2941-efcc-4c95-901b-1764cd33d545
+✓️ Keeping 8ac8280f-c50d-4462-a585-6e7242b0bf71
+✓️ Keeping d67fb08b-8506-4408-a0c9-581ad749a967
+✓️ Keeping 0e610e46-f8e3-4fe4-a3cc-4d9e6f91777f
+✓️ Keeping 86c04909-3656-4d8e-b431-55bce70de525
+✓️ Keeping 94ca5247-8296-492e-b040-08d66cb6556d
+✓️ Keeping 200474d9-1428-4373-b3f3-c9b0a82790dd
+✓️ Keeping 6d74e3d4-222b-4397-a6cf-b4b70e71fe23
+✓️ Keeping 50be61a9-c269-4950-be7d-1611c53fd077
+✓️ Keeping 948d0847-0189-4d3f-b3b6-8728d1822621
+✓️ Keeping 4092570e-4265-4fc9-846a-93bbcab595ba
+✗️ Filtering out 36b28347-2435-4f47-b95a-915f7c03dec2 (containing undefined surface type)
+✗️ Filtering out cf1c1d83-2144-4cb6-a3dd-bf504d32e1fc (containing undefined surface type)
+✗️ Filtering out efd3670b-7cf9-476a-bae4-d8366d627ec9 (containing undefined surface type)
+✗️ Filtering out 5d7ee9b3-3179-48c1-aab5-d49a41f170ff (containing undefined surface type)
+✗️ Filtering out 382e13e1-5b28-44e7-ae97-3a5b2e57ca72 (containing undefined surface type)
+✗️ Filtering out bd45a0a7-fa14-4ecb-845a-1b3a885ba186 (containing undefined surface type)
+✗️ Filtering out cb5b95c6-ddb6-4bec-804f-9810d6c15af1 (containing undefined surface type)
+✗️ Filtering out 50201168-cd38-4192-86dd-379bc66ee2dd (containing undefined surface type)
+✗️ Filtering out 643d12ae-6d9a-4553-a725-b0b88ba6e800 (containing undefined surface type)
+✗️ Filtering out 0074ddd2-e995-4508-a2e5-465a0398be23 (containing undefined surface type)
+✗️ Filtering out e7eaae24-945b-4a98-aaf0-d8b00ee997b2 (containing undefined surface type)
+✗️ Filtering out 2712d367-2fbc-4756-915b-23c32c2df004 (containing undefined surface type)
+✗️ Filtering out 0d02aa7e-5651-4728-b35a-815d301884c2 (containing undefined surface type)
+✗️ Filtering out de984076-899d-435f-97d5-d3a7d9e4fe10 (containing undefined surface type)
+✗️ Filtering out e9758f9f-0643-495a-b0fe-3440128daa8b (containing undefined surface type)
+✗️ Filtering out c30efa93-5382-45e8-9dc3-939974fc3717 (containing undefined surface type)
+✗️ Filtering out c1f4788a-0d39-41d3-990b-64cc8167061b (containing undefined surface type)
+✗️ Filtering out d1c57965-19fc-493d-8413-ae2c811b65ed (containing undefined surface type)
+✗️ Filtering out 2c56d12f-cfb4-4950-92e4-ffa2c9836cdc (containing undefined surface type)
+✗️ Filtering out 467f2f9b-2ce2-438d-a4c0-ddf052a9aaf4 (containing undefined surface type)
+✗️ Filtering out 0370dbc5-4847-4e0b-913e-45f589a55299 (containing undefined surface type)
+✗️ Filtering out 0aa4cb64-8115-41d3-a247-af547c9f39d0 (containing undefined surface type)
+✗️ Filtering out c03e65c7-4412-409e-9dec-f517f4403348 (containing undefined surface type)
+✗️ Filtering out 94736011-bbe7-4f0f-8ba0-6e0ea8e2969a (containing undefined surface type)
+✗️ Filtering out 1aa4c481-b18d-4c19-b186-d33f58351cbe (containing undefined surface type)
+✗️ Filtering out 03999956-e63b-407c-af7a-c65389f76d62 (containing undefined surface type)
+✗️ Filtering out 78a2fa8b-a40e-491e-bda2-3b1c9771fe9d (containing undefined surface type)
+✗️ Filtering out 4152a983-66e7-4a13-a755-b5d272027f88 (containing undefined surface type)
+✗️ Filtering out db0b784a-53e8-42f7-ba6d-d1d0794fb211 (containing undefined surface type)
+✗️ Filtering out f1c45c58-bcb3-416f-8fdc-1929ab29edab (containing undefined surface type)
+✗️ Filtering out 6c5668cc-c5d6-4c09-85a4-cac30e75590f (containing undefined surface type)
+✗️ Filtering out e1e4d7c7-6895-4aa1-ac07-f7ca44f64a54 (containing undefined surface type)
+✗️ Filtering out 07122ecb-8efc-4b2c-9aa5-f88b758142bd (containing undefined surface type)
+✗️ Filtering out 200477a9-6768-43b3-97f7-4793b6328b4d (containing undefined surface type)
+✗️ Filtering out a22f64a3-547b-415c-83ba-d7a8aa0badc3 (containing undefined surface type)
+✗️ Filtering out 03218512-24be-42c1-a5a9-b8756a55925d (containing undefined surface type)
+✗️ Filtering out d6dbda02-2b7e-46a6-a6da-cb7756fd762b (containing undefined surface type)
+✗️ Filtering out a45805b2-689b-43b9-b704-075357805356 (containing undefined surface type)
+✗️ Filtering out f25b966f-2778-49be-8089-1e3a069c1e45 (containing undefined surface type)
+✗️ Filtering out ca3604b8-dcd7-443a-8b4d-c8f14a3dfece (containing undefined surface type)
+✗️ Filtering out 57c5fc0a-1d3e-41f4-ac8a-8d4c580ba6dd (containing undefined surface type)
+✗️ Filtering out b60345a5-e7b6-4df4-a31f-1e75d6a7d3a5 (containing undefined surface type)
+✗️ Filtering out 5b19bb0c-5f6d-4d9d-94de-f6c5bf965466 (containing undefined surface type)
+✗️ Filtering out 8848ca8f-7008-43dd-98d7-9359dc4d8c12 (containing undefined surface type)
+✗️ Filtering out 698730b1-565d-4061-a3fa-1dac71749e0b (containing undefined surface type)
+✗️ Filtering out 4147e35e-43e4-43e1-99cd-c2dcd659b73d (containing undefined surface type)
+✗️ Filtering out d3522562-2704-44c8-ba1f-3efb3938bfbe (containing undefined surface type)
+✗️ Filtering out c1106ebb-1765-4cb5-9bb3-cd6d2439ae1e (containing undefined surface type)
+✗️ Filtering out e75f8951-0dda-4df4-a0de-14b11a1d99eb (containing undefined surface type)
+✗️ Filtering out cc626609-90d5-4324-920c-4b210bf0d949 (containing undefined surface type)
+✗️ Filtering out 04650afe-93b8-450e-b7b8-8b7b503c6890 (containing undefined surface type)
+✗️ Filtering out 9cd0249c-b544-4087-8937-9355152f8297 (containing undefined surface type)
+✗️ Filtering out 0a8f82b3-f54f-45f0-8c65-64052f8fdd79 (containing undefined surface type)
+✗️ Filtering out c996081a-6bbd-4a15-b162-ad6f5eb2bd58 (containing undefined surface type)
+✗️ Filtering out 30148719-58c7-48ae-aa0c-2548598c6f9a (containing undefined surface type)
+✗️ Filtering out 5d390d54-9c9e-4ce8-946a-e1890576d926 (containing undefined surface type)
+✗️ Filtering out 546a0f8e-f7c0-4495-9cf6-d20c6f8faf08 (containing undefined surface type)
+✗️ Filtering out 0b8a3b97-4eee-4d15-9dd6-752bd3b23b8b (containing undefined surface type)
+✗️ Filtering out 5814911c-b2d8-46e3-a1b4-3e241604f3bc (containing undefined surface type)
+✗️ Filtering out e08ed661-73a4-4506-89e3-5d9b18b9e971 (containing undefined surface type)
+✗️ Filtering out 6924fceb-0fea-4b88-9822-1567cbc2843f (containing undefined surface type)
+✗️ Filtering out a3a741f0-5056-4975-be0a-7c0ec0485585 (containing undefined surface type)
+✗️ Filtering out bdd53a94-5674-4961-91c1-f832e17ce50a (containing undefined surface type)
+✗️ Filtering out 2276aecc-9d99-4d26-b1f2-a4f9a7993351 (containing undefined surface type)
+✗️ Filtering out 4f61f8aa-fdf2-4129-891c-5cb4f38be35b (containing undefined surface type)
+✗️ Filtering out 6c469522-092c-4796-b097-820b6c154734 (containing undefined surface type)
+✗️ Filtering out fb1c8721-a6fd-4c7f-a698-e49aba9fb1a2 (containing undefined surface type)
+✗️ Filtering out 20644696-2a65-4be7-9761-02e5ecb90816 (containing undefined surface type)
+✗️ Filtering out f7cefe1e-42e6-40cb-ac26-a8832d64c8dc (containing undefined surface type)
+✗️ Filtering out 6379f971-e613-445f-aff0-e87003d9a02c (containing undefined surface type)
+✗️ Filtering out 0d6aea68-b7bb-4806-8290-4dd046d43460 (containing undefined surface type)
+✗️ Filtering out 8482a30f-c5fc-4f65-9de2-eee602f80c4d (containing undefined surface type)
+✗️ Filtering out aa04d074-5b69-46f1-ad40-b27715ecad65 (containing undefined surface type)
+✗️ Filtering out 88a0ff99-ef17-4680-8a04-1df19cda99ec (containing undefined surface type)
+✗️ Filtering out 336a51b3-8add-47fc-9199-c884a2a4d3cd (containing undefined surface type)
+✗️ Filtering out 95e814a2-09f6-47ca-aab9-09bd5c3c0627 (containing undefined surface type)
+✗️ Filtering out eb36beef-d4f9-491f-a55b-d0fc34849e8c (containing undefined surface type)
+✗️ Filtering out b0ae5def-d07e-4386-ad09-b6e6158280a0 (containing undefined surface type)
+✗️ Filtering out 8484dfd8-5ebf-42bc-a6c9-d6c7f9e29dd4 (containing undefined surface type)
+✗️ Filtering out 494cc675-d823-4734-b48e-7f31946ee3d3 (containing undefined surface type)
+✗️ Filtering out 7bb4c599-07ce-434d-b8d6-ebb940128d6f (containing undefined surface type)
+✗️ Filtering out d0491936-2ff6-4328-9a2f-3049d4565562 (containing undefined surface type)
+Data filterer finished with 115/554 dataframes (21.0%) kept
+Data transformer finished with 115 dataframes transformed
+Data normalizer finished with 115 dataframes normalized
+Train/test data splitter finished with train: 97, validation:18, test:115
+Epoch 1 loss 2.9252 accuracy 0.0
+Epoch 2 loss 2.8767 accuracy 0.0
+Epoch 3 loss 2.8291 accuracy 0.0
+Epoch 4 loss 2.7681 accuracy 0.83
+Epoch 5 loss 2.6829 accuracy 0.83
+Epoch 6 loss 2.5906 accuracy 0.83
+Epoch 7 loss 2.4499 accuracy 0.83
+Epoch 8 loss 2.2686 accuracy 0.83
+Epoch 9 loss 2.0955 accuracy 0.83
+Epoch 10 loss 1.8014 accuracy 0.83
+Epoch 11 loss 1.5206 accuracy 0.83
+Epoch 12 loss 1.282 accuracy 0.83
+Epoch 13 loss 1.0479 accuracy 0.83
+Epoch 14 loss 0.8615 accuracy 0.83
+Epoch 15 loss 0.8179 accuracy 0.83
+Epoch 16 loss 0.8614 accuracy 0.83
+Epoch 17 loss 0.8593 accuracy 0.83
+Epoch 18 loss 0.9215 accuracy 0.83
+Epoch 19 loss 0.9707 accuracy 0.83
+Epoch 20 loss 1.0132 accuracy 0.83
+Epoch 21 loss 0.8963 accuracy 0.83
+Epoch 22 loss 0.9002 accuracy 0.83
+Epoch 23 loss 0.8422 accuracy 0.83
+Epoch 24 loss 0.8913 accuracy 0.83
+Epoch 25 loss 0.7899 accuracy 0.83
+Epoch 26 loss 0.7648 accuracy 0.83
+Epoch 27 loss 0.7855 accuracy 0.83
+Epoch 28 loss 0.7559 accuracy 0.83
+Epoch 29 loss 0.7413 accuracy 0.83
+Epoch 30 loss 0.7296 accuracy 0.83
+Epoch 31 loss 0.7738 accuracy 0.83
+Epoch 32 loss 0.7238 accuracy 0.83
+Epoch 33 loss 0.7375 accuracy 0.83
+Epoch 34 loss 0.7421 accuracy 0.83
+Epoch 35 loss 0.6665 accuracy 0.83
+Epoch 36 loss 0.707 accuracy 0.83
+Epoch 37 loss 0.728 accuracy 0.83
+Epoch 38 loss 0.6801 accuracy 0.83
+Epoch 39 loss 0.6849 accuracy 0.83
+Epoch 40 loss 0.6544 accuracy 0.83
+Epoch 41 loss 0.6856 accuracy 0.83
+Epoch 42 loss 0.6858 accuracy 0.83
+Epoch 43 loss 0.6611 accuracy 0.83
+Epoch 44 loss 0.6982 accuracy 0.83
+Epoch 45 loss 0.7085 accuracy 0.83
+Epoch 46 loss 0.6615 accuracy 0.83
+Epoch 47 loss 0.698 accuracy 0.83
+Epoch 48 loss 0.6856 accuracy 0.83
+Epoch 49 loss 0.6852 accuracy 0.83
+Epoch 50 loss 0.7376 accuracy 0.83
+Epoch 51 loss 0.7076 accuracy 0.83
+Epoch 52 loss 0.6765 accuracy 0.83
+Epoch 53 loss 0.6677 accuracy 0.83
+Epoch 54 loss 0.6601 accuracy 0.83
+Epoch 55 loss 0.6268 accuracy 0.83
+Epoch 56 loss 0.6434 accuracy 0.83
+Epoch 57 loss 0.6779 accuracy 0.83
+Epoch 58 loss 0.7189 accuracy 0.83
+Epoch 59 loss 0.6246 accuracy 0.83
+Epoch 60 loss 0.6321 accuracy 0.83
+Epoch 61 loss 0.6721 accuracy 0.83
+Epoch 62 loss 0.6884 accuracy 0.83
+Epoch 63 loss 0.6681 accuracy 0.83
+Epoch 64 loss 0.6578 accuracy 0.83
+Epoch 65 loss 0.6366 accuracy 0.83
+Epoch 66 loss 0.6821 accuracy 0.83
+Epoch 67 loss 0.6439 accuracy 0.83
+Epoch 68 loss 0.6488 accuracy 0.83
+Epoch 69 loss 0.6859 accuracy 0.83
+Epoch 70 loss 0.6177 accuracy 0.83
+Epoch 71 loss 0.6996 accuracy 0.83
+Epoch 72 loss 0.6462 accuracy 0.83
+Epoch 73 loss 0.6557 accuracy 0.83
+Epoch 74 loss 0.6911 accuracy 0.83
+Epoch 75 loss 0.6614 accuracy 0.83
+Epoch 76 loss 0.6422 accuracy 0.83
+Epoch 77 loss 0.6724 accuracy 0.83
+Epoch 78 loss 0.6623 accuracy 0.83
+Epoch 79 loss 0.6767 accuracy 0.83
+Epoch 80 loss 0.6751 accuracy 0.83
+Epoch 81 loss 0.6671 accuracy 0.83
+Epoch 82 loss 0.6853 accuracy 0.83
+Epoch 83 loss 0.6528 accuracy 0.83
+Epoch 84 loss 0.6727 accuracy 0.83
+Epoch 85 loss 0.6709 accuracy 0.83
+Epoch 86 loss 0.6569 accuracy 0.83
+Epoch 87 loss 0.6494 accuracy 0.83
+Epoch 88 loss 0.6662 accuracy 0.83
+Epoch 89 loss 0.6424 accuracy 0.83
+Epoch 90 loss 0.6541 accuracy 0.83
+Epoch 91 loss 0.6571 accuracy 0.83
+Epoch 92 loss 0.6844 accuracy 0.83
+Epoch 93 loss 0.6429 accuracy 0.83
+Epoch 94 loss 0.6617 accuracy 0.83
+Epoch 95 loss 0.6786 accuracy 0.83
+Epoch 96 loss 0.6431 accuracy 0.83
+Epoch 97 loss 0.649 accuracy 0.83
+Epoch 98 loss 0.6686 accuracy 0.83
+Epoch 99 loss 0.6923 accuracy 0.83
+Epoch 100 loss 0.6432 accuracy 0.83
+Epoch 101 loss 0.673 accuracy 0.83
+Epoch 102 loss 0.6475 accuracy 0.83
+Epoch 103 loss 0.6468 accuracy 0.83
+Epoch 104 loss 0.6189 accuracy 0.83
+Epoch 105 loss 0.6367 accuracy 0.83
+Epoch 106 loss 0.6322 accuracy 0.83
+Epoch 107 loss 0.6955 accuracy 0.83
+Epoch 108 loss 0.6525 accuracy 0.83
+Epoch 109 loss 0.6646 accuracy 0.83
+Epoch 110 loss 0.6717 accuracy 0.83
+Epoch 111 loss 0.6558 accuracy 0.83
+Epoch 112 loss 0.6393 accuracy 0.83
+Epoch 113 loss 0.6519 accuracy 0.83
+Epoch 114 loss 0.6702 accuracy 0.83
+Epoch 115 loss 0.6434 accuracy 0.83
+Epoch 116 loss 0.6414 accuracy 0.83
+Epoch 117 loss 0.6548 accuracy 0.83
+Epoch 118 loss 0.6336 accuracy 0.83
+Epoch 119 loss 0.6167 accuracy 0.83
+Epoch 120 loss 0.6485 accuracy 0.83
+Epoch 121 loss 0.6792 accuracy 0.83
+Epoch 122 loss 0.6528 accuracy 0.83
+Epoch 123 loss 0.642 accuracy 0.83
+Epoch 124 loss 0.6735 accuracy 0.83
+Epoch 125 loss 0.6233 accuracy 0.83
+Epoch 126 loss 0.6457 accuracy 0.83
+Epoch 127 loss 0.6543 accuracy 0.83
+Epoch 128 loss 0.6697 accuracy 0.83
+Epoch 129 loss 0.6414 accuracy 0.83
+Epoch 130 loss 0.646 accuracy 0.83
+Epoch 131 loss 0.6679 accuracy 0.83
+Epoch 132 loss 0.6556 accuracy 0.83
+Epoch 133 loss 0.6917 accuracy 0.83
+Epoch 134 loss 0.638 accuracy 0.83
+Epoch 135 loss 0.6861 accuracy 0.83
+Epoch 136 loss 0.6774 accuracy 0.83
+Epoch 137 loss 0.6332 accuracy 0.83
+Epoch 138 loss 0.6622 accuracy 0.83
+Epoch 139 loss 0.6388 accuracy 0.83
+Epoch 140 loss 0.6437 accuracy 0.83
+Epoch 141 loss 0.6548 accuracy 0.83
+Epoch 142 loss 0.6407 accuracy 0.83
+Epoch 143 loss 0.6514 accuracy 0.83
+Epoch 144 loss 0.6564 accuracy 0.83
+Epoch 145 loss 0.6248 accuracy 0.83
+Epoch 146 loss 0.646 accuracy 0.83
+Epoch 147 loss 0.6646 accuracy 0.83
+Epoch 148 loss 0.6389 accuracy 0.83
+Epoch 149 loss 0.6458 accuracy 0.83
+Epoch 150 loss 0.6319 accuracy 0.83
+Epoch 151 loss 0.6389 accuracy 0.83
+Epoch 152 loss 0.6464 accuracy 0.83
+Epoch 153 loss 0.6723 accuracy 0.83
+Epoch 154 loss 0.6312 accuracy 0.83
+Epoch 155 loss 0.6663 accuracy 0.83
+Epoch 156 loss 0.6492 accuracy 0.83
+Epoch 157 loss 0.683 accuracy 0.83
+Epoch 158 loss 0.619 accuracy 0.83
+Epoch 159 loss 0.6894 accuracy 0.83
+Epoch 160 loss 0.648 accuracy 0.83
+Epoch 161 loss 0.6564 accuracy 0.83
+Epoch 162 loss 0.6063 accuracy 0.83
+Epoch 163 loss 0.6787 accuracy 0.83
+Epoch 164 loss 0.6792 accuracy 0.83
+Epoch 165 loss 0.6324 accuracy 0.83
+Epoch 166 loss 0.6554 accuracy 0.83
+Epoch 167 loss 0.6514 accuracy 0.83
+Epoch 168 loss 0.6396 accuracy 0.83
+Epoch 169 loss 0.5888 accuracy 0.83
+Epoch 170 loss 0.6394 accuracy 0.83
+Epoch 171 loss 0.6363 accuracy 0.83
+Epoch 172 loss 0.666 accuracy 0.83
+Epoch 173 loss 0.6371 accuracy 0.83
+Epoch 174 loss 0.6702 accuracy 0.83
+Epoch 175 loss 0.6284 accuracy 0.83
+Epoch 176 loss 0.6378 accuracy 0.83
+Epoch 177 loss 0.6478 accuracy 0.83
+Epoch 178 loss 0.6533 accuracy 0.83
+Epoch 179 loss 0.6589 accuracy 0.83
+Epoch 180 loss 0.64 accuracy 0.83
+Epoch 181 loss 0.6444 accuracy 0.83
+Epoch 182 loss 0.6607 accuracy 0.83
+Epoch 183 loss 0.6294 accuracy 0.83
+Epoch 184 loss 0.6455 accuracy 0.83
+Epoch 185 loss 0.6367 accuracy 0.83
+Epoch 186 loss 0.6596 accuracy 0.83
+Epoch 187 loss 0.6456 accuracy 0.83
+Epoch 188 loss 0.611 accuracy 0.83
+Epoch 189 loss 0.64 accuracy 0.83
+Epoch 190 loss 0.6661 accuracy 0.83
+Epoch 191 loss 0.6096 accuracy 0.83
+Epoch 192 loss 0.6343 accuracy 0.83
+Epoch 193 loss 0.6086 accuracy 0.83
+Epoch 194 loss 0.6376 accuracy 0.83
+Epoch 195 loss 0.6295 accuracy 0.83
+Epoch 196 loss 0.6587 accuracy 0.83
+Epoch 197 loss 0.6657 accuracy 0.83
+Epoch 198 loss 0.6366 accuracy 0.83
+Epoch 199 loss 0.6501 accuracy 0.83
+Epoch 200 loss 0.6185 accuracy 0.83
+Epoch 201 loss 0.6707 accuracy 0.83
+Epoch 202 loss 0.6426 accuracy 0.83
+Epoch 203 loss 0.6187 accuracy 0.83
+Epoch 204 loss 0.6563 accuracy 0.83
+Epoch 205 loss 0.6396 accuracy 0.83
+Epoch 206 loss 0.6473 accuracy 0.83
+Epoch 207 loss 0.6765 accuracy 0.83
+Epoch 208 loss 0.6586 accuracy 0.83
+Epoch 209 loss 0.65 accuracy 0.83
+Epoch 210 loss 0.623 accuracy 0.83
+Epoch 211 loss 0.622 accuracy 0.83
+Epoch 212 loss 0.6545 accuracy 0.83
+Epoch 213 loss 0.6378 accuracy 0.83
+Epoch 214 loss 0.6493 accuracy 0.83
+Epoch 215 loss 0.6843 accuracy 0.83
+Epoch 216 loss 0.6424 accuracy 0.83
+Epoch 217 loss 0.6218 accuracy 0.83
+Epoch 218 loss 0.6465 accuracy 0.83
+Epoch 219 loss 0.6585 accuracy 0.83
+Epoch 220 loss 0.6336 accuracy 0.83
+Epoch 221 loss 0.661 accuracy 0.83
+Epoch 222 loss 0.6501 accuracy 0.83
+Epoch 223 loss 0.6373 accuracy 0.83
+Epoch 224 loss 0.6141 accuracy 0.83
+Epoch 225 loss 0.6518 accuracy 0.83
+Epoch 226 loss 0.6469 accuracy 0.83
+Epoch 227 loss 0.6158 accuracy 0.83
+Epoch 228 loss 0.6414 accuracy 0.83
+Epoch 229 loss 0.6365 accuracy 0.83
+Epoch 230 loss 0.6357 accuracy 0.83
+Epoch 231 loss 0.6286 accuracy 0.83
+Epoch 232 loss 0.6257 accuracy 0.83
+Epoch 233 loss 0.6202 accuracy 0.83
+Epoch 234 loss 0.5963 accuracy 0.83
+Epoch 235 loss 0.5866 accuracy 0.83
+Epoch 236 loss 0.6319 accuracy 0.83
+Epoch 237 loss 0.6131 accuracy 0.83
+Epoch 238 loss 0.6095 accuracy 0.83
+Epoch 239 loss 0.6112 accuracy 0.83
+Epoch 240 loss 0.581 accuracy 0.83
+Epoch 241 loss 0.6071 accuracy 0.83
+Epoch 242 loss 0.5687 accuracy 0.83
+Epoch 243 loss 0.5745 accuracy 0.83
+Epoch 244 loss 0.5681 accuracy 0.83
+Epoch 245 loss 0.5644 accuracy 0.83
+Epoch 246 loss 0.5755 accuracy 0.83
+Epoch 247 loss 0.5849 accuracy 0.83
+Epoch 248 loss 0.5918 accuracy 0.83
+Epoch 249 loss 0.5664 accuracy 0.83
+Epoch 250 loss 0.575 accuracy 0.83
+Epoch 251 loss 0.5591 accuracy 0.83
+Epoch 252 loss 0.5579 accuracy 0.83
+Epoch 253 loss 0.5944 accuracy 0.83
+Epoch 254 loss 0.5886 accuracy 0.83
+Epoch 255 loss 0.566 accuracy 0.83
+Epoch 256 loss 0.5474 accuracy 0.83
+Epoch 257 loss 0.5471 accuracy 0.83
+Epoch 258 loss 0.537 accuracy 0.83
+Epoch 259 loss 0.5607 accuracy 0.83
+Epoch 260 loss 0.5596 accuracy 0.83
+Epoch 261 loss 0.5201 accuracy 0.83
+Epoch 262 loss 0.5595 accuracy 0.83
+Epoch 263 loss 0.5348 accuracy 0.83
+Epoch 264 loss 0.5433 accuracy 0.83
+Epoch 265 loss 0.5341 accuracy 0.83
+Epoch 266 loss 0.5324 accuracy 0.83
+Epoch 267 loss 0.5317 accuracy 0.83
+Epoch 268 loss 0.517 accuracy 0.83
+Epoch 269 loss 0.5191 accuracy 0.83
+Epoch 270 loss 0.5712 accuracy 0.83
+Epoch 271 loss 0.5246 accuracy 0.83
+Epoch 272 loss 0.542 accuracy 0.83
+Epoch 273 loss 0.5289 accuracy 0.83
+Epoch 274 loss 0.5575 accuracy 0.83
+Epoch 275 loss 0.5634 accuracy 0.83
+Epoch 276 loss 0.5374 accuracy 0.83
+Epoch 277 loss 0.5265 accuracy 0.83
+Epoch 278 loss 0.53 accuracy 0.83
+Epoch 279 loss 0.5305 accuracy 0.83
+Epoch 280 loss 0.5238 accuracy 0.83
+Epoch 281 loss 0.5135 accuracy 0.83
+Epoch 282 loss 0.5512 accuracy 0.83
+Epoch 283 loss 0.4934 accuracy 0.83
+Epoch 284 loss 0.5112 accuracy 0.83
+Epoch 285 loss 0.5339 accuracy 0.83
+Epoch 286 loss 0.5145 accuracy 0.83
+Epoch 287 loss 0.5114 accuracy 0.83
+Epoch 288 loss 0.4994 accuracy 0.83
+Epoch 289 loss 0.5111 accuracy 0.83
+Epoch 290 loss 0.4963 accuracy 0.83
+Epoch 291 loss 0.4673 accuracy 0.83
+Epoch 292 loss 0.483 accuracy 0.83
+Epoch 293 loss 0.5021 accuracy 0.83
+Epoch 294 loss 0.4955 accuracy 0.83
+Epoch 295 loss 0.4653 accuracy 0.83
+Epoch 296 loss 0.5026 accuracy 0.83
+Epoch 297 loss 0.505 accuracy 0.83
+Epoch 298 loss 0.4453 accuracy 0.83
+Epoch 299 loss 0.4869 accuracy 0.83
+Epoch 300 loss 0.4997 accuracy 0.83
+Epoch 301 loss 0.458 accuracy 0.83
+Epoch 302 loss 0.4715 accuracy 0.89
+Epoch 303 loss 0.4901 accuracy 0.89
+Epoch 304 loss 0.47 accuracy 0.83
+Epoch 305 loss 0.4821 accuracy 0.83
+Epoch 306 loss 0.5 accuracy 0.83
+Epoch 307 loss 0.5082 accuracy 0.83
+Epoch 308 loss 0.503 accuracy 0.83
+Epoch 309 loss 0.5476 accuracy 0.83
+Epoch 310 loss 0.4812 accuracy 0.83
+Epoch 311 loss 0.5173 accuracy 0.83
+Epoch 312 loss 0.4841 accuracy 0.83
+Epoch 313 loss 0.4689 accuracy 0.83
+Epoch 314 loss 0.5062 accuracy 0.83
+Epoch 315 loss 0.4751 accuracy 0.83
+Epoch 316 loss 0.4738 accuracy 0.83
+Epoch 317 loss 0.4914 accuracy 0.83
+Epoch 318 loss 0.4738 accuracy 0.83
+Epoch 319 loss 0.4475 accuracy 0.83
+Epoch 320 loss 0.4517 accuracy 0.83
+Epoch 321 loss 0.4494 accuracy 0.83
+Epoch 322 loss 0.4582 accuracy 0.83
+Epoch 323 loss 0.4616 accuracy 0.83
+Epoch 324 loss 0.4557 accuracy 0.83
+Epoch 325 loss 0.459 accuracy 0.83
+Epoch 326 loss 0.4611 accuracy 0.83
+Epoch 327 loss 0.4715 accuracy 0.83
+Epoch 328 loss 0.4671 accuracy 0.83
+Epoch 329 loss 0.4654 accuracy 0.83
+Epoch 330 loss 0.4566 accuracy 0.83
+Epoch 331 loss 0.4471 accuracy 0.83
+Epoch 332 loss 0.4223 accuracy 0.83
+Epoch 333 loss 0.4426 accuracy 0.83
+Epoch 334 loss 0.3999 accuracy 0.83
+Epoch 335 loss 0.4751 accuracy 0.83
+Epoch 336 loss 0.4948 accuracy 0.83
+Epoch 337 loss 0.4874 accuracy 0.83
+Epoch 338 loss 0.4523 accuracy 0.83
+Epoch 339 loss 0.4892 accuracy 0.83
+Epoch 340 loss 0.4886 accuracy 0.83
+Epoch 341 loss 0.5449 accuracy 0.83
+Epoch 342 loss 0.4233 accuracy 0.83
+Epoch 343 loss 0.4585 accuracy 0.83
+Epoch 344 loss 0.4606 accuracy 0.83
+Epoch 345 loss 0.4398 accuracy 0.83
+Epoch 346 loss 0.4898 accuracy 0.83
+Epoch 347 loss 0.4365 accuracy 0.83
+Epoch 348 loss 0.4271 accuracy 0.83
+Epoch 349 loss 0.4523 accuracy 0.83
+Epoch 350 loss 0.4184 accuracy 0.83
+Epoch 351 loss 0.4196 accuracy 0.83
+Epoch 352 loss 0.4469 accuracy 0.83
+Epoch 353 loss 0.441 accuracy 0.83
+Epoch 354 loss 0.4677 accuracy 0.83
+Epoch 355 loss 0.4855 accuracy 0.83
+Epoch 356 loss 0.4517 accuracy 0.83
+Epoch 357 loss 0.443 accuracy 0.83
+Epoch 358 loss 0.475 accuracy 0.83
+Epoch 359 loss 0.4236 accuracy 0.83
+Epoch 360 loss 0.433 accuracy 0.83
+Epoch 361 loss 0.4527 accuracy 0.83
+Epoch 362 loss 0.4191 accuracy 0.83
+Epoch 363 loss 0.4608 accuracy 0.83
+Epoch 364 loss 0.435 accuracy 0.83
+Epoch 365 loss 0.4331 accuracy 0.83
+Epoch 366 loss 0.4108 accuracy 0.83
+Epoch 367 loss 0.4557 accuracy 0.83
+Epoch 368 loss 0.4164 accuracy 0.83
+Epoch 369 loss 0.4255 accuracy 0.83
+Epoch 370 loss 0.4224 accuracy 0.83
+Epoch 371 loss 0.4247 accuracy 0.83
+Epoch 372 loss 0.4429 accuracy 0.83
+Epoch 373 loss 0.4608 accuracy 0.83
+Epoch 374 loss 0.4841 accuracy 0.83
+Epoch 375 loss 0.4161 accuracy 0.83
+Epoch 376 loss 0.4518 accuracy 0.83
+Epoch 377 loss 0.3906 accuracy 0.83
+Epoch 378 loss 0.409 accuracy 0.83
+Epoch 379 loss 0.4543 accuracy 0.83
+Epoch 380 loss 0.4566 accuracy 0.83
+Epoch 381 loss 0.4173 accuracy 0.83
+Epoch 382 loss 0.3621 accuracy 0.83
+Epoch 383 loss 0.4232 accuracy 0.83
+Epoch 384 loss 0.4024 accuracy 0.83
+Epoch 385 loss 0.4258 accuracy 0.83
+Epoch 386 loss 0.4255 accuracy 0.83
+Epoch 387 loss 0.442 accuracy 0.83
+Epoch 388 loss 0.4758 accuracy 0.83
+Epoch 389 loss 0.3903 accuracy 0.83
+Epoch 390 loss 0.4428 accuracy 0.83
+Epoch 391 loss 0.4033 accuracy 0.83
+Epoch 392 loss 0.4134 accuracy 0.83
+Epoch 393 loss 0.4078 accuracy 0.83
+Epoch 394 loss 0.419 accuracy 0.83
+Epoch 395 loss 0.3986 accuracy 0.83
+Epoch 396 loss 0.3995 accuracy 0.83
+Epoch 397 loss 0.3987 accuracy 0.83
+Epoch 398 loss 0.4136 accuracy 0.83
+Epoch 399 loss 0.4151 accuracy 0.83
+Epoch 400 loss 0.445 accuracy 0.83
+Epoch 401 loss 0.3734 accuracy 0.83
+Epoch 402 loss 0.4122 accuracy 0.83
+Epoch 403 loss 0.4367 accuracy 0.83
+Epoch 404 loss 0.4122 accuracy 0.83
+Epoch 405 loss 0.3827 accuracy 0.83
+Epoch 406 loss 0.4858 accuracy 0.83
+Epoch 407 loss 0.4135 accuracy 0.83
+Epoch 408 loss 0.4086 accuracy 0.83
+Epoch 409 loss 0.4081 accuracy 0.83
+Epoch 410 loss 0.4042 accuracy 0.83
+Epoch 411 loss 0.3799 accuracy 0.83
+Epoch 412 loss 0.3879 accuracy 0.83
+Epoch 413 loss 0.4375 accuracy 0.83
+Epoch 414 loss 0.4183 accuracy 0.83
+Epoch 415 loss 0.4037 accuracy 0.83
+Epoch 416 loss 0.361 accuracy 0.83
+Epoch 417 loss 0.4501 accuracy 0.83
+Epoch 418 loss 0.4531 accuracy 0.83
+Epoch 419 loss 0.4319 accuracy 0.83
+Epoch 420 loss 0.3668 accuracy 0.83
+Epoch 421 loss 0.352 accuracy 0.83
+Epoch 422 loss 0.3904 accuracy 0.83
+Epoch 423 loss 0.4043 accuracy 0.83
+Epoch 424 loss 0.4107 accuracy 0.83
+Epoch 425 loss 0.4176 accuracy 0.83
+Epoch 426 loss 0.4263 accuracy 0.83
+Epoch 427 loss 0.4087 accuracy 0.83
+Epoch 428 loss 0.4463 accuracy 0.83
+Epoch 429 loss 0.3843 accuracy 0.83
+Epoch 430 loss 0.3891 accuracy 0.83
+Epoch 431 loss 0.4196 accuracy 0.83
+Epoch 432 loss 0.375 accuracy 0.83
+Epoch 433 loss 0.4076 accuracy 0.83
+Epoch 434 loss 0.3876 accuracy 0.83
+Epoch 435 loss 0.3738 accuracy 0.83
+Epoch 436 loss 0.374 accuracy 0.83
+Epoch 437 loss 0.3987 accuracy 0.83
+Epoch 438 loss 0.4323 accuracy 0.83
+Epoch 439 loss 0.4674 accuracy 0.83
+Epoch 440 loss 0.3947 accuracy 0.83
+Epoch 441 loss 0.4104 accuracy 0.83
+Epoch 442 loss 0.408 accuracy 0.83
+Epoch 443 loss 0.4343 accuracy 0.83
+Epoch 444 loss 0.3747 accuracy 0.83
+Epoch 445 loss 0.4444 accuracy 0.83
+Epoch 446 loss 0.3776 accuracy 0.83
+Epoch 447 loss 0.3849 accuracy 0.83
+Epoch 448 loss 0.4186 accuracy 0.83
+Epoch 449 loss 0.4064 accuracy 0.83
+Epoch 450 loss 0.3666 accuracy 0.83
+Epoch 451 loss 0.341 accuracy 0.83
+Epoch 452 loss 0.3797 accuracy 0.83
+Epoch 453 loss 0.3584 accuracy 0.83
+Epoch 454 loss 0.3906 accuracy 0.83
+Epoch 455 loss 0.4269 accuracy 0.83
+Epoch 456 loss 0.4053 accuracy 0.83
+Epoch 457 loss 0.396 accuracy 0.83
+Epoch 458 loss 0.3838 accuracy 0.83
+Epoch 459 loss 0.4193 accuracy 0.83
+Epoch 460 loss 0.3084 accuracy 0.83
+Epoch 461 loss 0.3789 accuracy 0.83
+Epoch 462 loss 0.3846 accuracy 0.83
+Epoch 463 loss 0.3259 accuracy 0.83
+Epoch 464 loss 0.3504 accuracy 0.83
+Epoch 465 loss 0.406 accuracy 0.83
+Epoch 466 loss 0.3701 accuracy 0.83
+Epoch 467 loss 0.3964 accuracy 0.83
+Epoch 468 loss 0.4182 accuracy 0.83
+Epoch 469 loss 0.3866 accuracy 0.83
+Epoch 470 loss 0.4061 accuracy 0.83
+Epoch 471 loss 0.3356 accuracy 0.83
+Epoch 472 loss 0.4031 accuracy 0.83
+Epoch 473 loss 0.3485 accuracy 0.83
+Epoch 474 loss 0.3369 accuracy 0.83
+Epoch 475 loss 0.3719 accuracy 0.83
+Epoch 476 loss 0.4152 accuracy 0.83
+Epoch 477 loss 0.4426 accuracy 0.83
+Epoch 478 loss 0.352 accuracy 0.83
+Epoch 479 loss 0.3454 accuracy 0.83
+Epoch 480 loss 0.3609 accuracy 0.83
+Epoch 481 loss 0.3779 accuracy 0.83
+Epoch 482 loss 0.3539 accuracy 0.83
+Epoch 483 loss 0.3341 accuracy 0.83
+Epoch 484 loss 0.3825 accuracy 0.83
+Epoch 485 loss 0.32 accuracy 0.83
+Epoch 486 loss 0.3689 accuracy 0.83
+Epoch 487 loss 0.3641 accuracy 0.83
+Epoch 488 loss 0.3342 accuracy 0.83
+Epoch 489 loss 0.3537 accuracy 0.83
+Epoch 490 loss 0.38 accuracy 0.83
+Epoch 491 loss 0.3903 accuracy 0.83
+Epoch 492 loss 0.334 accuracy 0.83
+Epoch 493 loss 0.3449 accuracy 0.83
+Epoch 494 loss 0.3933 accuracy 0.83
+Epoch 495 loss 0.3293 accuracy 0.83
+Epoch 496 loss 0.329 accuracy 0.83
+Epoch 497 loss 0.3604 accuracy 0.83
+Epoch 498 loss 0.3714 accuracy 0.83
+Epoch 499 loss 0.3616 accuracy 0.83
+Epoch 500 loss 0.3059 accuracy 0.83
+Epoch 501 loss 0.3659 accuracy 0.83
+Epoch 502 loss 0.3776 accuracy 0.83
+Epoch 503 loss 0.3313 accuracy 0.83
+Epoch 504 loss 0.3365 accuracy 0.83
+Epoch 505 loss 0.3603 accuracy 0.83
+Epoch 506 loss 0.33 accuracy 0.83
+Epoch 507 loss 0.3215 accuracy 0.83
+Epoch 508 loss 0.3665 accuracy 0.83
+Epoch 509 loss 0.3038 accuracy 0.83
+Epoch 510 loss 0.3171 accuracy 0.83
+Epoch 511 loss 0.3337 accuracy 0.83
+Epoch 512 loss 0.345 accuracy 0.83
+Epoch 513 loss 0.3939 accuracy 0.83
+Epoch 514 loss 0.2974 accuracy 0.83
+Epoch 515 loss 0.3005 accuracy 0.83
+Epoch 516 loss 0.3159 accuracy 0.83
+Epoch 517 loss 0.3412 accuracy 0.83
+Epoch 518 loss 0.3137 accuracy 0.83
+Epoch 519 loss 0.3315 accuracy 0.83
+Epoch 520 loss 0.3094 accuracy 0.83
+Epoch 521 loss 0.3576 accuracy 0.83
+Epoch 522 loss 0.3348 accuracy 0.83
+Epoch 523 loss 0.3341 accuracy 0.83
+Epoch 524 loss 0.3312 accuracy 0.83
+Epoch 525 loss 0.3168 accuracy 0.83
+Epoch 526 loss 0.3722 accuracy 0.83
+Epoch 527 loss 0.3648 accuracy 0.83
+Epoch 528 loss 0.3115 accuracy 0.83
+Epoch 529 loss 0.3554 accuracy 0.83
+Epoch 530 loss 0.3224 accuracy 0.83
+Epoch 531 loss 0.2984 accuracy 0.83
+Epoch 532 loss 0.3787 accuracy 0.83
+Epoch 533 loss 0.3286 accuracy 0.83
+Epoch 534 loss 0.2954 accuracy 0.83
+Epoch 535 loss 0.3678 accuracy 0.83
+Epoch 536 loss 0.3175 accuracy 0.83
+Epoch 537 loss 0.271 accuracy 0.83
+Epoch 538 loss 0.3246 accuracy 0.83
+Epoch 539 loss 0.301 accuracy 0.83
+Epoch 540 loss 0.3552 accuracy 0.83
+Epoch 541 loss 0.2973 accuracy 0.83
+Epoch 542 loss 0.3676 accuracy 0.83
+Epoch 543 loss 0.3287 accuracy 0.83
+Epoch 544 loss 0.3494 accuracy 0.83
+Epoch 545 loss 0.2742 accuracy 0.83
+Epoch 546 loss 0.3762 accuracy 0.83
+Epoch 547 loss 0.3028 accuracy 0.83
+Epoch 548 loss 0.3368 accuracy 0.83
+Epoch 549 loss 0.2802 accuracy 0.83
+Epoch 550 loss 0.306 accuracy 0.83
+Epoch 551 loss 0.3074 accuracy 0.83
+Epoch 552 loss 0.312 accuracy 0.83
+Epoch 553 loss 0.3771 accuracy 0.83
+Epoch 554 loss 0.2963 accuracy 0.83
+Epoch 555 loss 0.3426 accuracy 0.83
+Epoch 556 loss 0.2873 accuracy 0.83
+Epoch 557 loss 0.3277 accuracy 0.83
+Epoch 558 loss 0.3526 accuracy 0.83
+Epoch 559 loss 0.2993 accuracy 0.83
+Epoch 560 loss 0.295 accuracy 0.83
+Epoch 561 loss 0.2995 accuracy 0.83
+Epoch 562 loss 0.2856 accuracy 0.83
+Epoch 563 loss 0.2776 accuracy 0.83
+Epoch 564 loss 0.3071 accuracy 0.83
+Epoch 565 loss 0.2804 accuracy 0.83
+Epoch 566 loss 0.3268 accuracy 0.83
+Epoch 567 loss 0.2951 accuracy 0.83
+Epoch 568 loss 0.3424 accuracy 0.83
+Epoch 569 loss 0.2682 accuracy 0.83
+Epoch 570 loss 0.2734 accuracy 0.83
+Epoch 571 loss 0.2945 accuracy 0.83
+Epoch 572 loss 0.2667 accuracy 0.83
+Epoch 573 loss 0.2838 accuracy 0.83
+Epoch 574 loss 0.3048 accuracy 0.83
+Epoch 575 loss 0.3486 accuracy 0.83
+Epoch 576 loss 0.304 accuracy 0.83
+Epoch 577 loss 0.277 accuracy 0.83
+Epoch 578 loss 0.2633 accuracy 0.83
+Epoch 579 loss 0.368 accuracy 0.83
+Epoch 580 loss 0.2918 accuracy 0.83
+Epoch 581 loss 0.258 accuracy 0.83
+Epoch 582 loss 0.2803 accuracy 0.83
+Epoch 583 loss 0.2859 accuracy 0.83
+Epoch 584 loss 0.3013 accuracy 0.83
+Epoch 585 loss 0.297 accuracy 0.83
+Epoch 586 loss 0.2103 accuracy 0.83
+Epoch 587 loss 0.2112 accuracy 0.83
+Epoch 588 loss 0.3253 accuracy 0.83
+Epoch 589 loss 0.2752 accuracy 0.83
+Epoch 590 loss 0.2603 accuracy 0.83
+Epoch 591 loss 0.258 accuracy 0.83
+Epoch 592 loss 0.2588 accuracy 0.83
+Epoch 593 loss 0.2792 accuracy 0.83
+Epoch 594 loss 0.2619 accuracy 0.83
+Epoch 595 loss 0.2666 accuracy 0.83
+Epoch 596 loss 0.2596 accuracy 0.83
+Epoch 597 loss 0.2759 accuracy 0.83
+Epoch 598 loss 0.2912 accuracy 0.83
+Epoch 599 loss 0.2872 accuracy 0.83
+Epoch 600 loss 0.3167 accuracy 0.83
+Epoch 601 loss 0.256 accuracy 0.83
+Epoch 602 loss 0.2471 accuracy 0.83
+Epoch 603 loss 0.2454 accuracy 0.83
+Epoch 604 loss 0.355 accuracy 0.83
+Epoch 605 loss 0.2591 accuracy 0.83
+Epoch 606 loss 0.2703 accuracy 0.83
+Epoch 607 loss 0.2253 accuracy 0.83
+Epoch 608 loss 0.2291 accuracy 0.83
+Epoch 609 loss 0.2438 accuracy 0.83
+Epoch 610 loss 0.2259 accuracy 0.83
+Epoch 611 loss 0.2423 accuracy 0.83
+Epoch 612 loss 0.313 accuracy 0.83
+Epoch 613 loss 0.2241 accuracy 0.83
+Epoch 614 loss 0.2574 accuracy 0.83
+Epoch 615 loss 0.3935 accuracy 0.83
+Epoch 616 loss 0.2188 accuracy 0.83
+Epoch 617 loss 0.2513 accuracy 0.83
+Epoch 618 loss 0.2763 accuracy 0.83
+Epoch 619 loss 0.2406 accuracy 0.83
+Epoch 620 loss 0.269 accuracy 0.83
+Epoch 621 loss 0.2296 accuracy 0.83
+Epoch 622 loss 0.2361 accuracy 0.83
+Epoch 623 loss 0.1958 accuracy 0.83
+Epoch 624 loss 0.2185 accuracy 0.83
+Epoch 625 loss 0.2379 accuracy 0.83
+Epoch 626 loss 0.2171 accuracy 0.83
+Epoch 627 loss 0.1861 accuracy 0.83
+Epoch 628 loss 0.2737 accuracy 0.83
+Epoch 629 loss 0.2839 accuracy 0.83
+Epoch 630 loss 0.2737 accuracy 0.83
+Epoch 631 loss 0.2472 accuracy 0.83
+Epoch 632 loss 0.2898 accuracy 0.83
+Epoch 633 loss 0.1713 accuracy 0.83
+Epoch 634 loss 0.1992 accuracy 0.83
+Epoch 635 loss 0.1939 accuracy 0.83
+Epoch 636 loss 0.2695 accuracy 0.83
+Epoch 637 loss 0.2157 accuracy 0.83
+Epoch 638 loss 0.2124 accuracy 0.83
+Epoch 639 loss 0.2913 accuracy 0.83
+Epoch 640 loss 0.2707 accuracy 0.83
+Epoch 641 loss 0.2051 accuracy 0.83
+Epoch 642 loss 0.2609 accuracy 0.83
+Epoch 643 loss 0.3157 accuracy 0.83
+Epoch 644 loss 0.2269 accuracy 0.83
+Epoch 645 loss 0.3028 accuracy 0.83
+Epoch 646 loss 0.2436 accuracy 0.83
+Epoch 647 loss 0.2208 accuracy 0.83
+Epoch 648 loss 0.2043 accuracy 0.83
+Epoch 649 loss 0.2995 accuracy 0.83
+Epoch 650 loss 0.2471 accuracy 0.83
+Epoch 651 loss 0.2821 accuracy 0.83
+Epoch 652 loss 0.2062 accuracy 0.83
+Epoch 653 loss 0.3387 accuracy 0.83
+Epoch 654 loss 0.2094 accuracy 0.83
+Epoch 655 loss 0.22 accuracy 0.83
+Epoch 656 loss 0.251 accuracy 0.83
+Epoch 657 loss 0.187 accuracy 0.83
+Epoch 658 loss 0.2425 accuracy 0.83
+Epoch 659 loss 0.1673 accuracy 0.83
+Epoch 660 loss 0.2144 accuracy 0.83
+Epoch 661 loss 0.2462 accuracy 0.83
+Epoch 662 loss 0.1958 accuracy 0.83
+Epoch 663 loss 0.2468 accuracy 0.83
+Epoch 664 loss 0.2455 accuracy 0.83
+Epoch 665 loss 0.2841 accuracy 0.83
+Epoch 666 loss 0.2389 accuracy 0.83
+Epoch 667 loss 0.2237 accuracy 0.83
+Epoch 668 loss 0.2386 accuracy 0.83
+Epoch 669 loss 0.1993 accuracy 0.83
+Epoch 670 loss 0.1581 accuracy 0.83
+Epoch 671 loss 0.2162 accuracy 0.83
+Epoch 672 loss 0.193 accuracy 0.83
+Epoch 673 loss 0.185 accuracy 0.83
+Epoch 674 loss 0.2507 accuracy 0.83
+Epoch 675 loss 0.2009 accuracy 0.83
+Epoch 676 loss 0.1865 accuracy 0.83
+Epoch 677 loss 0.2057 accuracy 0.83
+Epoch 678 loss 0.2269 accuracy 0.83
+Epoch 679 loss 0.2605 accuracy 0.83
+Epoch 680 loss 0.2218 accuracy 0.83
+Epoch 681 loss 0.2072 accuracy 0.83
+Epoch 682 loss 0.1973 accuracy 0.83
+Epoch 683 loss 0.2383 accuracy 0.83
+Epoch 684 loss 0.179 accuracy 0.83
+Epoch 685 loss 0.213 accuracy 0.83
+Epoch 686 loss 0.241 accuracy 0.83
+Epoch 687 loss 0.1653 accuracy 0.83
+Epoch 688 loss 0.1502 accuracy 0.83
+Epoch 689 loss 0.1868 accuracy 0.83
+Epoch 690 loss 0.1907 accuracy 0.83
+Epoch 691 loss 0.1824 accuracy 0.83
+Epoch 692 loss 0.199 accuracy 0.83
+Epoch 693 loss 0.1407 accuracy 0.83
+Epoch 694 loss 0.1524 accuracy 0.83
+Epoch 695 loss 0.158 accuracy 0.83
+Epoch 696 loss 0.1622 accuracy 0.83
+Epoch 697 loss 0.2473 accuracy 0.83
+Epoch 698 loss 0.1953 accuracy 0.83
+Epoch 699 loss 0.1649 accuracy 0.83
+Epoch 700 loss 0.17 accuracy 0.83
+Epoch 701 loss 0.2032 accuracy 0.83
+Epoch 702 loss 0.1497 accuracy 0.83
+Epoch 703 loss 0.1656 accuracy 0.83
+Epoch 704 loss 0.2222 accuracy 0.83
+Epoch 705 loss 0.2334 accuracy 0.83
+Epoch 706 loss 0.1966 accuracy 0.83
+Epoch 707 loss 0.299 accuracy 0.83
+Epoch 708 loss 0.1726 accuracy 0.83
+Epoch 709 loss 0.1487 accuracy 0.83
+Epoch 710 loss 0.2662 accuracy 0.83
+Epoch 711 loss 0.2391 accuracy 0.83
+Epoch 712 loss 0.1421 accuracy 0.83
+Epoch 713 loss 0.1867 accuracy 0.83
+Epoch 714 loss 0.1689 accuracy 0.83
+Epoch 715 loss 0.2297 accuracy 0.83
+Epoch 716 loss 0.1655 accuracy 0.83
+Epoch 717 loss 0.1867 accuracy 0.83
+Epoch 718 loss 0.186 accuracy 0.83
+Epoch 719 loss 0.1284 accuracy 0.83
+Epoch 720 loss 0.1371 accuracy 0.83
+Epoch 721 loss 0.1132 accuracy 0.83
+Epoch 722 loss 0.2017 accuracy 0.83
+Epoch 723 loss 0.1833 accuracy 0.83
+Epoch 724 loss 0.2008 accuracy 0.83
+Epoch 725 loss 0.0917 accuracy 0.83
+Epoch 726 loss 0.2541 accuracy 0.83
+Epoch 727 loss 0.2145 accuracy 0.83
+Epoch 728 loss 0.237 accuracy 0.83
+Epoch 729 loss 0.1433 accuracy 0.83
+Epoch 730 loss 0.1241 accuracy 0.83
+Epoch 731 loss 0.1693 accuracy 0.83
+Epoch 732 loss 0.1726 accuracy 0.83
+Epoch 733 loss 0.2128 accuracy 0.83
+Epoch 734 loss 0.1265 accuracy 0.83
+Epoch 735 loss 0.3157 accuracy 0.83
+Epoch 736 loss 0.1223 accuracy 0.83
+Epoch 737 loss 0.1563 accuracy 0.83
+Epoch 738 loss 0.2481 accuracy 0.83
+Epoch 739 loss 0.1508 accuracy 0.83
+Epoch 740 loss 0.1811 accuracy 0.83
+Epoch 741 loss 0.1163 accuracy 0.83
+Epoch 742 loss 0.2209 accuracy 0.83
+Epoch 743 loss 0.1582 accuracy 0.83
+Epoch 744 loss 0.1314 accuracy 0.83
+Epoch 745 loss 0.2322 accuracy 0.83
+Epoch 746 loss 0.1698 accuracy 0.83
+Epoch 747 loss 0.1146 accuracy 0.83
+Epoch 748 loss 0.1198 accuracy 0.83
+Epoch 749 loss 0.2122 accuracy 0.83
+Epoch 750 loss 0.1472 accuracy 0.83
+Epoch 751 loss 0.1722 accuracy 0.83
+Epoch 752 loss 0.1256 accuracy 0.83
+Epoch 753 loss 0.1543 accuracy 0.83
+Epoch 754 loss 0.1397 accuracy 0.83
+Epoch 755 loss 0.1858 accuracy 0.83
+Epoch 756 loss 0.1232 accuracy 0.83
+Epoch 757 loss 0.1974 accuracy 0.83
+Epoch 758 loss 0.2408 accuracy 0.83
+Epoch 759 loss 0.1528 accuracy 0.83
+Epoch 760 loss 0.1452 accuracy 0.83
+Epoch 761 loss 0.1563 accuracy 0.83
+Epoch 762 loss 0.1639 accuracy 0.83
+Epoch 763 loss 0.1402 accuracy 0.83
+Epoch 764 loss 0.1721 accuracy 0.83
+Epoch 765 loss 0.1772 accuracy 0.83
+Epoch 766 loss 0.2133 accuracy 0.83
+Epoch 767 loss 0.1951 accuracy 0.83
+Epoch 768 loss 0.19 accuracy 0.83
+Epoch 769 loss 0.1238 accuracy 0.83
+Epoch 770 loss 0.118 accuracy 0.83
+Epoch 771 loss 0.2303 accuracy 0.83
+Epoch 772 loss 0.1265 accuracy 0.83
+Epoch 773 loss 0.1161 accuracy 0.83
+Epoch 774 loss 0.1592 accuracy 0.83
+Epoch 775 loss 0.1419 accuracy 0.83
+Epoch 776 loss 0.1106 accuracy 0.83
+Epoch 777 loss 0.1794 accuracy 0.83
+Epoch 778 loss 0.1176 accuracy 0.83
+Epoch 779 loss 0.153 accuracy 0.83
+Epoch 780 loss 0.2055 accuracy 0.83
+Epoch 781 loss 0.1164 accuracy 0.83
+Epoch 782 loss 0.1457 accuracy 0.83
+Epoch 783 loss 0.1843 accuracy 0.83
+Epoch 784 loss 0.1199 accuracy 0.83
+Epoch 785 loss 0.1382 accuracy 0.83
+Epoch 786 loss 0.1191 accuracy 0.83
+Epoch 787 loss 0.1582 accuracy 0.83
+Epoch 788 loss 0.2553 accuracy 0.83
+Epoch 789 loss 0.0846 accuracy 0.83
+Epoch 790 loss 0.1638 accuracy 0.83
+Epoch 791 loss 0.1247 accuracy 0.83
+Epoch 792 loss 0.1384 accuracy 0.83
+Epoch 793 loss 0.1577 accuracy 0.83
+Epoch 794 loss 0.1964 accuracy 0.83
+Epoch 795 loss 0.1451 accuracy 0.83
+Epoch 796 loss 0.1214 accuracy 0.83
+Epoch 797 loss 0.1765 accuracy 0.83
+Epoch 798 loss 0.2203 accuracy 0.83
+Epoch 799 loss 0.1654 accuracy 0.83
+Epoch 800 loss 0.1622 accuracy 0.83
+Epoch 801 loss 0.1444 accuracy 0.83
+Epoch 802 loss 0.153 accuracy 0.83
+No further improvement after epoch 802
+✓️ Plotting loss
+Training result plotter finished
+✓️ Plotting accuracy
+Training result plotter finished
+CNN base model finished
