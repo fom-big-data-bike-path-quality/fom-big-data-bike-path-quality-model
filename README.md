@@ -1,8 +1,8 @@
-[![Issues](https://img.shields.io/github/issues/florianschwanz/fom-big-data-bike-path-quality-model)](https://github.com/florianschwanz/fom-big-data-bike-path-quality-model/issues)
+[![Issues](https://img.shields.io/github/issues/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-model)](https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-model/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/florianschwanz/fom-big-data-bike-path-quality-model">
+  <a href="https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-model">
     <img src="./logo.png" alt="Logo" width="80" height="80">
   </a>
 
