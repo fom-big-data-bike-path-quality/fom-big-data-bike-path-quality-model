@@ -9,7 +9,7 @@
   <h1 align="center">Bike Path Quality (Aguaje)</h1>
 
   <p align="center">
-    Models trained by <a href="https://github.com/florianschwanz/fom-big-data-bike-path-quality-analytics" target="_blank">bike path quality
+    Models trained by <a href="https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-analytics" target="_blank">bike path quality
      analysis</a> 
   </p>
 </p>
@@ -29,7 +29,7 @@ This project is not intended to be run manually.
 
 ## Roadmap
 
-See the [open issues](https://github.com/florianschwanz/fom-big-data-bike-path-quality-analytics/issues) for a list of proposed features
+See the [open issues](https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-analytics/issues) for a list of proposed features
  (and known issues).
 
 ## Contributing
