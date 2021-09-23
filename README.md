@@ -17,7 +17,7 @@
 ## About The Project
 
 This project aggregates and provides
-* models trained by [bike path quality analytics part](https://github.com/florianschwanz/fom-big-data-bike-path-quality-analytics)
+* models trained by [bike path quality analytics part](https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-analytics)
 
 ## Installation
 
