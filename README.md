@@ -9,7 +9,7 @@
   <h1 align="center">Bike Path Quality (Aguaje)</h1>
 
   <p align="center">
-    Models trained by <a href="https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-analytics" target="_blank">bike path quality
+    Results storage of <a href="https://github.com/fom-big-data-bike-path-quality/fom-big-data-bike-path-quality-analytics" target="_blank">bike path quality
      analysis</a> 
   </p>
 </p>
