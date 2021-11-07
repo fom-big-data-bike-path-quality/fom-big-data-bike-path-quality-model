@@ -1,0 +1,22 @@
+Start Training
+Parameters
+* device name: cpu
+* start time: 2021-11-03-00:14:16
+* clean: False
+* quiet: False
+* transient: False
+* dry-run: False
+* skip data understanding: False
+* skip validation: False
+* k-folds: 10
+* epochs: 10000
+* learning rate: 0.001
+* patience: 500
+* slice width: 500
+* window step: 50
+* down-sampling factor: 3.0
+* measurement speed limit: 5.0
+* test size: 0.15
+* random state: 0
+
+DataLoader.run started
