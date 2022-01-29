@@ -5,4 +5,4 @@
 
 /venv/
 
-/results/transient
+/results/**/transient
