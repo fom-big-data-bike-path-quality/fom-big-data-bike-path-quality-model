@@ -1,0 +1,3279 @@
+Training started with parameters 
+* device name cpu
+* start time 2022-03-05-23:36:03
+* clean True
+* quiet False
+* transient False
+* dry-run False
+* skip data understanding True
+* skip validation False
+* slice width 500
+* window step 500
+* down-sampling factor 1.5
+* measurement speed limit 5.0
+* test size 0.2
+* random state 0
+* model name knn-dtw
+* k-folds 10
+* k-nearest-neighbors 10
+
+python main.py --clean  --model knn-dtw --skip-data-understanding 
+
+DataLoader.run started
+DataLoader.run loaded 143 dataframes
+DataLoader.run finished in 0:00:03.936614
+
+SlidingWindowTrainTestDataSplitter.run started
+SlidingWindowTrainTestDataSplitter.run splitted train:1841, test: 396
+SlidingWindowTrainTestDataSplitter.run finished in 0:00:00.167546
+
+DataFilterer.run started
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00000 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00001 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00002 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00003 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00004 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00005 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00006 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00007 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00008 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00009 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00010 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00011 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00012 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00013 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00014 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00015 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00016 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00017 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00018 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00019 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00020 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00021 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00022 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00023 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00024 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00025 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00026 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00027 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00028 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00029 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00030 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00031 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00032 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00033 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00034 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00035 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00036 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00037 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00038 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00039 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00040 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00041 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00042 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00043 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00044 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00045 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00046 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00047 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00048 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00049 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00050 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00051 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00052 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00053 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00054 (not tracked under lab conditions)
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00000 (containing slow measurements)
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00001
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00002
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00003
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00004
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00005 (containing slow measurements)
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00006 (containing slow measurements)
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00007 (containing slow measurements)
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00008 (containing slow measurements)
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00009
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00010
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00011 (containing slow measurements)
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00012 (containing slow measurements)
+✗️ Filtering out d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00000 (containing slow measurements)
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00001
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00002
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00003
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00004
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00005
+✗️ Filtering out cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00000 (containing slow measurements)
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00001
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00002
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00003
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00004
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00005
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00006
+✗️ Filtering out 28e4481a-1399-4de9-8d32-e66f119757b4-00000 (containing slow measurements)
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00001
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00002
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00003
+✗️ Filtering out 28e4481a-1399-4de9-8d32-e66f119757b4-00004 (containing slow measurements)
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00005
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00006
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00007
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00008
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00009
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00010
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00011
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00012
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00000 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00001 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00002 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00003 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00004 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00005 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00006 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00007 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00008 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00009 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00010 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00011 (not tracked under lab conditions)
+✗️ Filtering out f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00000 (containing slow measurements)
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00001
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00002
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00003
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00004
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00005
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00006
+✗️ Filtering out 7ce222c2-4444-48e1-a926-af47030a2ab1-00000 (containing slow measurements)
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00001
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00002
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00003
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00004
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00005
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00006
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00007
+✗️ Filtering out 7ce222c2-4444-48e1-a926-af47030a2ab1-00008 (containing slow measurements)
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00009
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00010
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00000
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00001
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00002
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00003
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00004
+✗️ Filtering out 9f7be42c-d051-49df-93eb-2b10526cf822-0-00005 (containing slow measurements)
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00006
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00007
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00008
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00009
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00010
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00011
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00012
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00013
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00014
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00015
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00016
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00017
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00018
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00019
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00020
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00021
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00022
+✗️ Filtering out cc44daa8-360c-4b54-954c-3a4442362c0c-00000 (containing slow measurements)
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00001
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00002
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00003
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00004
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00005
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00006
+✗️ Filtering out 90b432d6-dbf8-4740-b557-00697d51fd21-00000 (containing slow measurements)
+✓️ Keeping 90b432d6-dbf8-4740-b557-00697d51fd21-00001
+✓️ Keeping 90b432d6-dbf8-4740-b557-00697d51fd21-00002
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00000 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00001 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00002 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00003 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00004 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00005 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00006 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00007 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00008 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00009 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00010 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00011 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00012 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00013 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00014 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00015 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00016 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00017 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00018 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00019 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00000 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00001 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00002 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00003 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00004 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00005 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00006 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00000 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00001 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00002 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00003 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00004 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00005 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00006 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00007 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00008 (not tracked under lab conditions)
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00000
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00001
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00002
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00003
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00004
+✗️ Filtering out 9f7be42c-d051-49df-93eb-2b10526cf822-1-00005 (containing slow measurements)
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00006
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00007
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00008
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00009
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00010
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00011
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00012
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00013
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00014
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00015
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00016
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00017
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00018
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00019
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00020
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00021
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00022
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00000 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00001 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00002 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00003 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00004 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00005 (not tracked under lab conditions)
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00006 (not tracked under lab conditions)
+✗️ Filtering out 2fa212f8-f3a2-471d-81ac-5feeeb675448-00000 (containing slow measurements)
+✗️ Filtering out 2fa212f8-f3a2-471d-81ac-5feeeb675448-00001 (containing slow measurements)
+✓️ Keeping 2fa212f8-f3a2-471d-81ac-5feeeb675448-00002
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00000 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00001 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00002 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00003 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00004 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00005 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00006 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00007 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00008 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00009 (not tracked under lab conditions)
+✗️ Filtering out 5beb59a5-0c77-4641-8fa5-ef3b4ecc6d01-00000 (containing slow measurements)
+✓️ Keeping 5beb59a5-0c77-4641-8fa5-ef3b4ecc6d01-00001
+✓️ Keeping 5beb59a5-0c77-4641-8fa5-ef3b4ecc6d01-00002
+✗️ Filtering out 737bf298-fc9f-4c5d-a018-7e86d780b049-00000 (not tracked under lab conditions)
+✗️ Filtering out 737bf298-fc9f-4c5d-a018-7e86d780b049-00001 (not tracked under lab conditions)
+✗️ Filtering out 737bf298-fc9f-4c5d-a018-7e86d780b049-00002 (not tracked under lab conditions)
+✗️ Filtering out 737bf298-fc9f-4c5d-a018-7e86d780b049-00003 (not tracked under lab conditions)
+✗️ Filtering out 721a6d77-2f80-4736-a5bc-161e4f7ee520-00000 (not tracked under lab conditions)
+✗️ Filtering out 721a6d77-2f80-4736-a5bc-161e4f7ee520-00001 (not tracked under lab conditions)
+✗️ Filtering out 721a6d77-2f80-4736-a5bc-161e4f7ee520-00002 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00000 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00001 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00002 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00003 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00004 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00005 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00006 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00007 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00008 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00009 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00010 (not tracked under lab conditions)
+✗️ Filtering out 6d575ab7-62fd-4aa7-a502-cd1747588524-00000 (containing slow measurements)
+✓️ Keeping 6d575ab7-62fd-4aa7-a502-cd1747588524-00001
+✓️ Keeping 6d575ab7-62fd-4aa7-a502-cd1747588524-00002
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00000 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00001 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00002 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00003 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00004 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00005 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00006 (not tracked under lab conditions)
+✗️ Filtering out 33ed0c74-1504-4365-8aff-0a70c2230ea9-00000 (containing slow measurements)
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00001
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00002
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00003
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00004
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00005
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00000 (not tracked under lab conditions)
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00001 (not tracked under lab conditions)
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00002 (not tracked under lab conditions)
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00003 (not tracked under lab conditions)
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00004 (not tracked under lab conditions)
+✗️ Filtering out 39a181ce-cfdd-45dc-843b-ff515a46224b-00000 (containing slow measurements)
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00001
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00002
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00003
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00004
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00005
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00006
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00007
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00008
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00009
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00000 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00001 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00002 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00003 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00004 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00005 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00006 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00007 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00008 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00009 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00010 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00011 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00012 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00013 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00014 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00015 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00016 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00017 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00018 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00000 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00001 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00002 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00003 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00004 (not tracked under lab conditions)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00000 (containing slow measurements)
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00001
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00002
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00003
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00004 (containing slow measurements)
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00005
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00006 (containing slow measurements)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00007 (containing slow measurements)
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00008
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00009 (containing slow measurements)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00010 (containing slow measurements)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00011 (containing slow measurements)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00012 (containing slow measurements)
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00013 (containing slow measurements)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00000 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00001 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00002 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00003 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00004 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00005 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00006 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00007 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00008 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00009 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00010 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00011 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00012 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00013 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00014 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00015 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00016 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00017 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00018 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00019 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00020 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00021 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00022 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00023 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00024 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00025 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00026 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00027 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00028 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00029 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00030 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00031 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00032 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00033 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00034 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00035 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00036 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00037 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00038 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00039 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00040 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00041 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00042 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00043 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00044 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00045 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00046 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00047 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00048 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00049 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00050 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00051 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00052 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00053 (not tracked under lab conditions)
+✗️ Filtering out f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00000 (containing slow measurements)
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00001
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00002
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00003
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00004
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00005
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00006
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00007
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00008
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00009
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00010
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00011
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00012
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00013
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00014
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00015
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00016
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00017
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00018
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00019
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00020
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00021
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00022
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00023
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00024
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00025
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00026
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00027
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00028
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00029
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00030
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00031
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00032
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00033
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00034
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00035
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00036
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00037
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00038
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00039
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00040
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00041
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00042
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00043
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00044
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00045
+✗️ Filtering out 181827c6-a675-4238-8b16-de520de09d51-00000 (containing slow measurements)
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00001
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00002
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00003
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00004
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00005
+✗️ Filtering out 88cdc9f2-03a5-4213-afe0-fcc4661d974d-00000 (containing slow measurements)
+✓️ Keeping 88cdc9f2-03a5-4213-afe0-fcc4661d974d-00001
+✓️ Keeping 88cdc9f2-03a5-4213-afe0-fcc4661d974d-00002
+✗️ Filtering out 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00000 (containing slow measurements)
+✓️ Keeping 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00001
+✓️ Keeping 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00002
+✓️ Keeping 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00003
+✓️ Keeping 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00004
+✓️ Keeping 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00005
+✗️ Filtering out ec6461f0-3771-4a48-b184-e422cc7a5c11-00000 (containing slow measurements)
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00001
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00002
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00003
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00004
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00005
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00006
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00007
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00008
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00009
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00010
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00011
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00012
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00013
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00014
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00015
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00016
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00017
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00018
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00019
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00020
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00021
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00022
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00023
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00024
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00025
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00026
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00027
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00028
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00029
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00030
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00031
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00032
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00033
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00034
+✗️ Filtering out ec6461f0-3771-4a48-b184-e422cc7a5c11-00035 (containing undefined surface type)
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00036
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00037
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00038
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00039
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00040
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00041
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00042
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00043
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00044
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00045
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00046
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00047
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00048
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00049
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00050
+✗️ Filtering out 72840ad5-63bc-4763-9020-b13b8453a47a-00000 (containing slow measurements)
+✓️ Keeping 72840ad5-63bc-4763-9020-b13b8453a47a-00001
+✓️ Keeping 72840ad5-63bc-4763-9020-b13b8453a47a-00002
+✗️ Filtering out 3dac0a69-c190-48f3-bff8-b9ca65151940-00000 (containing slow measurements)
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00001
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00002
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00003
+✗️ Filtering out 3dac0a69-c190-48f3-bff8-b9ca65151940-00004 (containing slow measurements)
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00005
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00006
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00007
+✗️ Filtering out 3dac0a69-c190-48f3-bff8-b9ca65151940-00008 (containing slow measurements)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00000 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00001 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00002 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00003 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00004 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00005 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00006 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00007 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00008 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00009 (not tracked under lab conditions)
+✗️ Filtering out 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00000 (containing slow measurements)
+✓️ Keeping 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00001
+✓️ Keeping 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00002
+✓️ Keeping 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00003
+✗️ Filtering out 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00004 (containing slow measurements)
+✗️ Filtering out 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00005 (containing slow measurements)
+✓️ Keeping 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00006
+✗️ Filtering out 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00000 (containing slow measurements)
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00001
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00002
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00003
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00004
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00005
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00006
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00007
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00008
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00009
+✗️ Filtering out 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00010 (containing slow measurements)
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00011
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00012
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00013
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00014
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00015
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00016
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00017
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00018
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00019
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00020
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00021
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00022
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00023
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00024
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00025
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00026
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00027
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00028
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00029
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00030
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00031
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00032
+✗️ Filtering out 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00033 (containing slow measurements)
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00034
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00035
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00036
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00037
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00038
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00039
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00040
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00041
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00042
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00043
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00000 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00001
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00002
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00003 (containing slow measurements)
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00004 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00005
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00006
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00007 (containing slow measurements)
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00008 (containing slow measurements)
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00009 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00010
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00011
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00012 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00013
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00014 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00015
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00016 (containing slow measurements)
+✗️ Filtering out a6e39179-91f4-4a75-95de-c840d53e742b-00017 (containing slow measurements)
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00018
+✗️ Filtering out 5966d2ff-5036-4940-984e-f3b75b101184-00000 (containing slow measurements)
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00001
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00002
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00003
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00004
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00005
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00006
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00000 (containing slow measurements)
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00001
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00002
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00003
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00004
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00005
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00006
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00007
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00008
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00009
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00010 (containing slow measurements)
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00011
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00012
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00013
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00014
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00015
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00016
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00017
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00018
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00019
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00020
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00021 (containing slow measurements)
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00022 (containing slow measurements)
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00023
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00024
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00025
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00026
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00027
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00028
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00029
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00030
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00031
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00032
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00033 (containing slow measurements)
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00034
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00035
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00036
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00037
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00038
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00039
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00040
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00041
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00042
+✗️ Filtering out 87111597-b36c-48d4-9369-562edb40e03a-00000 (containing slow measurements)
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00001
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00002
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00003
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00004
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00005
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00006
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00000 (not tracked under lab conditions)
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00001 (not tracked under lab conditions)
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00002 (not tracked under lab conditions)
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00003 (not tracked under lab conditions)
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00004 (not tracked under lab conditions)
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00005 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00000 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00001 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00002 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00003 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00004 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00005 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00006 (not tracked under lab conditions)
+✗️ Filtering out 1c7293f3-3e39-4805-9091-2896dc5e323b-00000 (containing slow measurements)
+✗️ Filtering out 1c7293f3-3e39-4805-9091-2896dc5e323b-00001 (containing slow measurements)
+✓️ Keeping 1c7293f3-3e39-4805-9091-2896dc5e323b-00002
+✗️ Filtering out 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00000 (containing slow measurements)
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00001
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00002
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00003
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00004
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00005
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00006
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00007
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00008
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00009
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00010
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00011
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00012
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00013
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00014
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00015
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00016
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00017
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00018
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00019
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00020
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00021
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00022
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00023
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00024
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00025
+✗️ Filtering out fe478e2a-e696-42de-be00-ffed49fc66db-00000 (containing slow measurements)
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00001
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00002
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00003
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00004
+✗️ Filtering out fe478e2a-e696-42de-be00-ffed49fc66db-00005 (containing slow measurements)
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00006
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00007
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00008
+✗️ Filtering out 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00000 (containing slow measurements)
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00001
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00002
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00003
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00004
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00005
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00006
+✗️ Filtering out a53076f9-fd1a-492e-a84d-be86db0e653a-00000 (containing slow measurements)
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00001
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00002
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00003
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00004
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00005
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00006
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00007
+✗️ Filtering out 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00000 (containing slow measurements)
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00001
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00002
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00003
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00004
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00005
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00006
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00007
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00008
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00009
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00010
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00011
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00012
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00013
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00014
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00015
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00016
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00017
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00018
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00019
+✗️ Filtering out be9bfe25-fac4-478a-879a-b2f75aaada6f-00000 (containing slow measurements)
+✗️ Filtering out be9bfe25-fac4-478a-879a-b2f75aaada6f-00001 (containing slow measurements)
+✓️ Keeping be9bfe25-fac4-478a-879a-b2f75aaada6f-00002
+✗️ Filtering out 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00000 (containing slow measurements)
+✗️ Filtering out 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00001 (containing slow measurements)
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00002
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00003
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00004
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00005
+✗️ Filtering out 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00006 (containing slow measurements)
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00007
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00008
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00009
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00010
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00011
+✗️ Filtering out 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00012 (containing slow measurements)
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00013
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00014
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00015
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00016
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00017
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00018
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00019
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00020
+✗️ Filtering out 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00000 (containing slow measurements)
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00001
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00002
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00003
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00004
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00005
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00006
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00007
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00008
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00009
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00010
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00011
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00012
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00013
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00014
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00015
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00016
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00017
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00018
+✗️ Filtering out 23ac90d7-210b-4f01-8724-7b78e5d11963-00000 (containing slow measurements)
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00001
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00002
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00003
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00004
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00005
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00006
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00007
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00008
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00009
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00010
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00011
+✗️ Filtering out 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00000 (containing slow measurements)
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00001
+✗️ Filtering out 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00002 (containing slow measurements)
+✗️ Filtering out 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00003 (containing slow measurements)
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00004
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00005
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00006
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00007
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00008
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00009
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00010
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00011
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00012
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00013
+✗️ Filtering out 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00000 (containing slow measurements)
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00001
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00002
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00003
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00004
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00005
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00006
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00007
+✗️ Filtering out 7c5c7670-85f0-4c34-9240-f6932a28d788-00000 (not tracked under lab conditions)
+✗️ Filtering out 7c5c7670-85f0-4c34-9240-f6932a28d788-00001 (not tracked under lab conditions)
+✗️ Filtering out 7c5c7670-85f0-4c34-9240-f6932a28d788-00002 (not tracked under lab conditions)
+✗️ Filtering out dd411448-f3a8-418d-8ede-fc56405011ef-00000 (not tracked under lab conditions)
+✗️ Filtering out dd411448-f3a8-418d-8ede-fc56405011ef-00001 (not tracked under lab conditions)
+✗️ Filtering out dd411448-f3a8-418d-8ede-fc56405011ef-00002 (not tracked under lab conditions)
+✗️ Filtering out 2a5edcc2-b1a2-420e-a2bd-929fee481bc8-00000 (containing slow measurements)
+✓️ Keeping 2a5edcc2-b1a2-420e-a2bd-929fee481bc8-00001
+✓️ Keeping 2a5edcc2-b1a2-420e-a2bd-929fee481bc8-00002
+✗️ Filtering out 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00000 (containing slow measurements)
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00001
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00002
+✗️ Filtering out 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00003 (containing slow measurements)
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00004
+✗️ Filtering out 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00005 (containing slow measurements)
+✗️ Filtering out 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00006 (containing slow measurements)
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00007
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00008
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00009
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00010
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00011
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00012
+✗️ Filtering out 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00000 (containing slow measurements)
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00001
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00002
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00003
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00004
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00005
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00006
+✗️ Filtering out cda86829-42ad-4860-974d-351d9b13e3af-00000 (containing slow measurements)
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00001
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00002
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00003
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00004
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00005
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00006
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00007
+✗️ Filtering out cda86829-42ad-4860-974d-351d9b13e3af-00008 (containing slow measurements)
+✗️ Filtering out cda86829-42ad-4860-974d-351d9b13e3af-00009 (containing undefined surface type)
+✗️ Filtering out cda86829-42ad-4860-974d-351d9b13e3af-00010 (containing undefined surface type)
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00011
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00012
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00013
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00014
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00015
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00016
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00017
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00018
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00019
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00020
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00021
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00022
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00023
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00000 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00001 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00002 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00003 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00004 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00005 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00006 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00007 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00008 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00009 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00010 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00011 (not tracked under lab conditions)
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00000 (containing slow measurements)
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00001
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00002
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00003
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00004 (containing slow measurements)
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00005 (containing slow measurements)
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00006 (containing slow measurements)
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00007
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00008
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00009 (containing slow measurements)
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00010 (containing slow measurements)
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00011
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00012
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00013
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00014
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00015
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00016
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00017 (containing slow measurements)
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00018 (containing slow measurements)
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00000 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00001
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00002 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00003
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00004
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00005
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00006
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00007
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00008
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00009
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00010
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00011
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00012
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00013
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00014
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00015 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00016
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00017
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00018
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00019
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00020
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00021
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00022
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00023
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00024
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00025
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00026
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00027
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00028 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00029
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00030
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00031
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00032
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00033
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00034
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00035
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00036
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00037
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00038
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00039
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00040
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00041 (containing slow measurements)
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00042 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00043
+✗️ Filtering out 79d31a65-7652-4724-9f49-1eb9cc52a63b-00000 (containing slow measurements)
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00001
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00002
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00003
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00004
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00005
+✓️ Keeping 79d31a65-7652-4724-9f49-1eb9cc52a63b-00006
+✗️ Filtering out eba7842f-df33-4dd3-bc50-1aaf3bc2f083-00000 (not tracked under lab conditions)
+✗️ Filtering out eba7842f-df33-4dd3-bc50-1aaf3bc2f083-00001 (not tracked under lab conditions)
+✗️ Filtering out eba7842f-df33-4dd3-bc50-1aaf3bc2f083-00002 (not tracked under lab conditions)
+✗️ Filtering out eba7842f-df33-4dd3-bc50-1aaf3bc2f083-00003 (not tracked under lab conditions)
+✗️ Filtering out 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00000 (containing slow measurements)
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00001
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00002
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00003
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00004
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00005
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00006
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00007
+✗️ Filtering out 270e607e-b339-4f9f-b0b1-fd63d5e7197c-00000 (containing slow measurements)
+✓️ Keeping 270e607e-b339-4f9f-b0b1-fd63d5e7197c-00001
+✓️ Keeping 270e607e-b339-4f9f-b0b1-fd63d5e7197c-00002
+✗️ Filtering out 4be3ba51-d31b-4a42-8e29-fdbe645ffa7e-00000 (not tracked under lab conditions)
+✗️ Filtering out 4be3ba51-d31b-4a42-8e29-fdbe645ffa7e-00001 (not tracked under lab conditions)
+✗️ Filtering out 4be3ba51-d31b-4a42-8e29-fdbe645ffa7e-00002 (not tracked under lab conditions)
+✗️ Filtering out 6f60bc71-38d8-455e-be7a-0aafb8ed3bee-00000 (containing slow measurements)
+✓️ Keeping 6f60bc71-38d8-455e-be7a-0aafb8ed3bee-00001
+✗️ Filtering out 6f60bc71-38d8-455e-be7a-0aafb8ed3bee-00002 (containing slow measurements)
+✗️ Filtering out 66691eed-5d7c-461a-aa3e-e36681782016-00000 (containing slow measurements)
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00001
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00002
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00003
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00004
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00005
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00006
+✗️ Filtering out 7a85d4cb-8724-4919-87a2-0ea5500f083b-00000 (containing slow measurements)
+✓️ Keeping 7a85d4cb-8724-4919-87a2-0ea5500f083b-00001
+✓️ Keeping 7a85d4cb-8724-4919-87a2-0ea5500f083b-00002
+✓️ Keeping 7a85d4cb-8724-4919-87a2-0ea5500f083b-00003
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00000 (not tracked under lab conditions)
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00001 (not tracked under lab conditions)
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00002 (not tracked under lab conditions)
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00003 (not tracked under lab conditions)
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00004 (not tracked under lab conditions)
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00005 (not tracked under lab conditions)
+✗️ Filtering out c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00000 (containing slow measurements)
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00001
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00002
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00003
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00004
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00005
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00006
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00007
+✗️ Filtering out 94848291-95e4-48c6-b9a2-f5e080f0669e-00000 (containing slow measurements)
+✓️ Keeping 94848291-95e4-48c6-b9a2-f5e080f0669e-00001
+✓️ Keeping 94848291-95e4-48c6-b9a2-f5e080f0669e-00002
+✗️ Filtering out f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00000 (containing slow measurements)
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00001
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00002
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00003
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00004
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00005
+✗️ Filtering out 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00000 (containing slow measurements)
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00001
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00002
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00003
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00004
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00005
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00006
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00007
+✗️ Filtering out dff43e55-8241-4b84-ac6e-7b65f8f255f2-00000 (containing slow measurements)
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00001
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00002
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00003
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00004
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00005
+✗️ Filtering out a72f240d-2229-4904-86f9-05b556d17921-00000 (containing slow measurements)
+✓️ Keeping a72f240d-2229-4904-86f9-05b556d17921-00001
+✓️ Keeping a72f240d-2229-4904-86f9-05b556d17921-00002
+✓️ Keeping a72f240d-2229-4904-86f9-05b556d17921-00003
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00000
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00001
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00002
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00003
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00004
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00005
+✓️ Keeping ad6b8960-356d-40df-b594-e9ef53e88d2e-00006
+✗️ Filtering out 435ed585-a5af-4478-b250-df7187c001e1-00000 (containing slow measurements)
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00001
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00002
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00003
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00004
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00005
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00006
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00007
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00008
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00009
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00010
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00011
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00012
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00013
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00014
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00015
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00016
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00017
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00018
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00019
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00020
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00021
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00022
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00023
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00024
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00025
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00026
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00027
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00028
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00029
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00030
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00031
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00032
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00033
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00034
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00035
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00036
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00037
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00038
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00039
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00040
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00041
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00042
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00043
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00044
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00045
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00000 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00001 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00002 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00003 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00004 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00005 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00006 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00007 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00008 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00009 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00010 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00011 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00012 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00013 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00014 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00015 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00016 (not tracked under lab conditions)
+✗️ Filtering out 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00000 (containing slow measurements)
+✓️ Keeping 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00001
+✓️ Keeping 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00002
+✗️ Filtering out 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00003 (containing slow measurements)
+✓️ Keeping 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00004
+✗️ Filtering out 52186f7f-67ea-4c39-84be-6d0bab489a4e-00000 (containing slow measurements)
+✓️ Keeping 52186f7f-67ea-4c39-84be-6d0bab489a4e-00001
+✓️ Keeping 52186f7f-67ea-4c39-84be-6d0bab489a4e-00002
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00000 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00001 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00002 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00003 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00004 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00005 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00006 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00007 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00008 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00009 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00010 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00011 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00012 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00013 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00014 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00015 (not tracked under lab conditions)
+✗️ Filtering out 1b0e7618-3aea-48a5-a2be-f3e06599c750-00000 (not tracked under lab conditions)
+✗️ Filtering out 1b0e7618-3aea-48a5-a2be-f3e06599c750-00001 (not tracked under lab conditions)
+✗️ Filtering out 1b0e7618-3aea-48a5-a2be-f3e06599c750-00002 (not tracked under lab conditions)
+✗️ Filtering out 1b0e7618-3aea-48a5-a2be-f3e06599c750-00003 (not tracked under lab conditions)
+✗️ Filtering out a9e90f8f-f1c2-4442-816e-599747b498ae-00000 (containing slow measurements)
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00001
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00002
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00003
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00004
+✗️ Filtering out a9e90f8f-f1c2-4442-816e-599747b498ae-00005 (containing slow measurements)
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00006
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00007
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00008
+✗️ Filtering out a9e90f8f-f1c2-4442-816e-599747b498ae-00009 (containing slow measurements)
+✗️ Filtering out a9e90f8f-f1c2-4442-816e-599747b498ae-00010 (containing slow measurements)
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00011
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00012
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00013
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00014
+✗️ Filtering out a9e90f8f-f1c2-4442-816e-599747b498ae-00015 (containing slow measurements)
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00016
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00000 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00001 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00002 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00003 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00004 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00005 (not tracked under lab conditions)
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00006 (not tracked under lab conditions)
+✗️ Filtering out 3faace6f-0b01-4744-9bde-e67e56dddb49-00000 (containing slow measurements)
+✗️ Filtering out 3faace6f-0b01-4744-9bde-e67e56dddb49-00001 (containing slow measurements)
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00002
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00003
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00004
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00005
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00006
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00007
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00008
+✗️ Filtering out 3faace6f-0b01-4744-9bde-e67e56dddb49-00009 (containing slow measurements)
+✗️ Filtering out 3faace6f-0b01-4744-9bde-e67e56dddb49-00010 (containing slow measurements)
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00011
+✗️ Filtering out 3faace6f-0b01-4744-9bde-e67e56dddb49-00012 (containing slow measurements)
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00013
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00014
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00015
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00016
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00017
+✗️ Filtering out 6737010e-4ca2-4bf8-b587-06581394346f-00000 (containing slow measurements)
+✓️ Keeping 6737010e-4ca2-4bf8-b587-06581394346f-00001
+✓️ Keeping 6737010e-4ca2-4bf8-b587-06581394346f-00002
+✓️ Keeping 6737010e-4ca2-4bf8-b587-06581394346f-00003
+✓️ Keeping 6737010e-4ca2-4bf8-b587-06581394346f-00004
+✓️ Keeping 6737010e-4ca2-4bf8-b587-06581394346f-00005
+✗️ Filtering out 976d1629-d868-4990-837a-4f6ec315a162-00000 (containing slow measurements)
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00001
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00002
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00003
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00004
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00005
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00006
+✗️ Filtering out a78b398a-7992-49c3-bdeb-325a57e1e32a-00000 (containing slow measurements)
+✓️ Keeping a78b398a-7992-49c3-bdeb-325a57e1e32a-00001
+✓️ Keeping a78b398a-7992-49c3-bdeb-325a57e1e32a-00002
+✗️ Filtering out a78b398a-7992-49c3-bdeb-325a57e1e32a-00003 (containing slow measurements)
+✓️ Keeping a78b398a-7992-49c3-bdeb-325a57e1e32a-00004
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00000 (not tracked under lab conditions)
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00001 (not tracked under lab conditions)
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00002 (not tracked under lab conditions)
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00003 (not tracked under lab conditions)
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00004 (not tracked under lab conditions)
+✗️ Filtering out aec73f87-871e-407c-b499-b32400fdae9d-00000 (containing slow measurements)
+✓️ Keeping aec73f87-871e-407c-b499-b32400fdae9d-00001
+✓️ Keeping aec73f87-871e-407c-b499-b32400fdae9d-00002
+✗️ Filtering out 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00000 (containing slow measurements)
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00001
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00002
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00003
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00004
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00005
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00006
+✗️ Filtering out 00de889a-8fed-474d-aa52-1bd7be3b2516-00000 (containing slow measurements)
+✓️ Keeping 00de889a-8fed-474d-aa52-1bd7be3b2516-00001
+✓️ Keeping 00de889a-8fed-474d-aa52-1bd7be3b2516-00002
+✓️ Keeping 00de889a-8fed-474d-aa52-1bd7be3b2516-00003
+✓️ Keeping 00de889a-8fed-474d-aa52-1bd7be3b2516-00004
+✗️ Filtering out 00de889a-8fed-474d-aa52-1bd7be3b2516-00005 (containing slow measurements)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00007 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00008 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00009 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00010 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00011 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00012 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00013 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00014 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00015 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00016 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00017 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00018 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00019 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00020 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00021 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00022 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00023 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00024 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00025 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00026 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00027 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00028 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00029 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00030 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00031 (not tracked under lab conditions)
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00000 (containing slow measurements)
+✓️ Keeping 79d45ce1-7637-490a-ad5b-43cb5209d509-00001
+✓️ Keeping 79d45ce1-7637-490a-ad5b-43cb5209d509-00002
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00003 (containing slow measurements)
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00004 (containing slow measurements)
+✓️ Keeping 79d45ce1-7637-490a-ad5b-43cb5209d509-00005
+✓️ Keeping 79d45ce1-7637-490a-ad5b-43cb5209d509-00006
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00007 (containing slow measurements)
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00008 (containing slow measurements)
+✗️ Filtering out 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00000 (containing slow measurements)
+✓️ Keeping 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00001
+✓️ Keeping 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00002
+✓️ Keeping 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00003
+✓️ Keeping 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00004
+✗️ Filtering out a643a461-c11e-4623-a22c-3b161a652bee-00000 (containing slow measurements)
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00001
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00002
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00003
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00004
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00005
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00006
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00007
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00008
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00009
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00010
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00011
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00012
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00013
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00014
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00015
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00016
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00017
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00018
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00019
+✗️ Filtering out a643a461-c11e-4623-a22c-3b161a652bee-00020 (containing slow measurements)
+✗️ Filtering out a643a461-c11e-4623-a22c-3b161a652bee-00021 (containing slow measurements)
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00022
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00023
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00024
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00025
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00026
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00027
+✗️ Filtering out a643a461-c11e-4623-a22c-3b161a652bee-00028 (containing slow measurements)
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00029
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00000 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00001 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00002 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00003 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00004 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00005 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00006 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00007 (not tracked under lab conditions)
+✗️ Filtering out 7acf96cb-a7cd-4435-850a-014bb55cd114-00000 (containing slow measurements)
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00001
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00002
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00003
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00004
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00005
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00006
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00007
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00008
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00009
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00010
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00011
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00012
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00013
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00014
+✗️ Filtering out 7acf96cb-a7cd-4435-850a-014bb55cd114-00015 (containing slow measurements)
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00016
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00017
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00018
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00019
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00020
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00021
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00022
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00023
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00024
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00025
+✗️ Filtering out 9b5cbd93-c65c-480f-9fab-bdcfc2b68d07-00000 (containing slow measurements)
+✓️ Keeping 9b5cbd93-c65c-480f-9fab-bdcfc2b68d07-00001
+✓️ Keeping 9b5cbd93-c65c-480f-9fab-bdcfc2b68d07-00002
+✓️ Keeping 9b5cbd93-c65c-480f-9fab-bdcfc2b68d07-00003
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00000 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00001 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00002 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00003 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00004 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00005 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00006 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00007 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00008 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00009 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00010 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00011 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00012 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00013 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00014 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00015 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00016 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00017 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00018 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00019 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00020 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00021 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00022 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00023 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00024 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00025 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00026 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00027 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00028 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00029 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00030 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00031 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00032 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00033 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00034 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00035 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00036 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00037 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00038 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00007 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00008 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00009 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00010 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00011 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00012 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00013 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00014 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00015 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00016 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00017 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00018 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00019 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00020 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00021 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00022 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00023 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00024 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00025 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00026 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00027 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00028 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00029 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00030 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00031 (not tracked under lab conditions)
+✗️ Filtering out 6d699189-c4f1-4e5e-9b20-0bac5d67ebe9-00000 (containing slow measurements)
+✓️ Keeping 6d699189-c4f1-4e5e-9b20-0bac5d67ebe9-00001
+✓️ Keeping 6d699189-c4f1-4e5e-9b20-0bac5d67ebe9-00002
+✗️ Filtering out be0312cd-89ed-446d-936d-19e028e3cd45-00000 (containing slow measurements)
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00001
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00002
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00003
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00004
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00005
+✓️ Keeping be0312cd-89ed-446d-936d-19e028e3cd45-00006
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00000 (containing slow measurements)
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00001
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00002
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00003
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00004
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00005
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00006
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00007
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00008 (containing slow measurements)
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00009
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00010
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00011
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00012
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00013 (containing slow measurements)
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00014
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00015
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00016
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00017
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00018
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00019 (containing slow measurements)
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00020
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00021
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00022
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00023
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00000 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00001 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00002 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00003 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00004 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00005 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00006 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00007 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00008 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00009 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00010 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00011 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00012 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00013 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00014 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00015 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00016 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00017 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00018 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00019 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00020 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00021 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00022 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00023 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00024 (not tracked under lab conditions)
+✗️ Filtering out b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00000 (containing slow measurements)
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00001
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00002
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00003
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00004
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00005
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00006
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00007
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00008
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00009
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00010
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00011
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00012
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00007 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00008 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00009 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00010 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00011 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00012 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00013 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00014 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00015 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00016 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00017 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00018 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00019 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00020 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00021 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00022 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00023 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00024 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00025 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00026 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00027 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00028 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00029 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00030 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00031 (not tracked under lab conditions)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00000
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00001
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00002
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00003
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00004
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00005
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00006 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00007
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00008
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00009
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00010
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00011 (containing slow measurements)
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00012 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00013
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00014
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00015
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00016
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00017
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00018
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00019 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00020
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00021
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00022
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00023
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00024
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00025 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00026
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00027
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00028
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00029
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00030
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00031
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00032 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00033
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00034
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00035
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00036
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00037
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00038 (containing slow measurements)
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00039 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00040
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00041
+✗️ Filtering out 09f53162-c3f9-4405-986d-485206a5ff59-00000 (containing slow measurements)
+✓️ Keeping 09f53162-c3f9-4405-986d-485206a5ff59-00001
+✓️ Keeping 09f53162-c3f9-4405-986d-485206a5ff59-00002
+✓️ Keeping 09f53162-c3f9-4405-986d-485206a5ff59-00003
+✓️ Keeping 09f53162-c3f9-4405-986d-485206a5ff59-00004
+✗️ Filtering out 0d1414f3-d959-41d8-8349-dbe3481ba149-00000 (containing slow measurements)
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00001
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00002
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00003
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00004
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00005
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00006
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00007 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00008 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00009 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00010 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00011 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00012 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00013 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00014 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00015 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00016 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00017 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00018 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00019 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00020 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00021 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00022 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00023 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00024 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00025 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00026 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00027 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00028 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00029 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00030 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00031 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00000 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00001 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00002 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00003 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00004 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00005 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00006 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00007 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00008 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00009 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00010 (not tracked under lab conditions)
+✗️ Filtering out 13559fde-a6e0-4490-ace9-0b66b8ef9008-00000 (containing slow measurements)
+✓️ Keeping 13559fde-a6e0-4490-ace9-0b66b8ef9008-00001
+✗️ Filtering out 13559fde-a6e0-4490-ace9-0b66b8ef9008-00002 (containing slow measurements)
+✗️ Filtering out 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00000 (containing slow measurements)
+✓️ Keeping 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00001
+✓️ Keeping 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00002
+✓️ Keeping 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00003
+✗️ Filtering out 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00004 (containing slow measurements)
+✗️ Filtering out 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00005 (containing slow measurements)
+✓️ Keeping 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00006
+✗️ Filtering out 14664d53-e581-4930-bde7-44fd9f3d8709-00000 (not tracked under lab conditions)
+✗️ Filtering out 14664d53-e581-4930-bde7-44fd9f3d8709-00001 (not tracked under lab conditions)
+✗️ Filtering out 14664d53-e581-4930-bde7-44fd9f3d8709-00002 (not tracked under lab conditions)
+✗️ Filtering out 1d463c4d-566f-4179-9835-efbc4d09405a-00000 (not tracked under lab conditions)
+✗️ Filtering out 1d463c4d-566f-4179-9835-efbc4d09405a-00001 (not tracked under lab conditions)
+✗️ Filtering out 1d463c4d-566f-4179-9835-efbc4d09405a-00002 (not tracked under lab conditions)
+✗️ Filtering out 5498723f-e9db-4ceb-87f2-261fce45fb13-00000 (containing slow measurements)
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00001
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00002
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00003
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00004
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00005
+✗️ Filtering out 5498723f-e9db-4ceb-87f2-261fce45fb13-00006 (containing slow measurements)
+✗️ Filtering out 5498723f-e9db-4ceb-87f2-261fce45fb13-00007 (containing slow measurements)
+✗️ Filtering out f2970292-7c15-4bce-997c-d34ea8cf21d0-00000 (containing slow measurements)
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00001
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00002
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00003
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00004
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00005
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00006
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00007
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00008
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00009
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00010
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00011
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00012
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00013
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00014
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00015
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00016
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00017
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00018
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00019
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00020
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00021
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00022
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00023
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00024
+✗️ Filtering out aa460e9e-5072-4184-b5d4-d40d99b4c733-00000 (containing slow measurements)
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00001
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00002
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00003
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00004
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00005
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00006
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00007
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00008
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00009
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00010
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00011
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00012
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00013
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00014
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00015
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00016
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00017
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00018
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00019
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00020
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00021
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00022
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00023
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00024
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00025
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00026
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00027
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00028
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00029
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00030
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00031
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00032
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00033
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00034
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00035
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00036
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00037
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00038
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00039
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00040
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00041
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00042
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00043
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00044
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00045
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00046
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00047
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00048
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00049
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00050
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00051
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00052
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00053
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00054
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00055
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00056
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00057
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00058
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00059
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00060
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00061
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00062
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00063
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00064
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00065
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00066
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00067
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00068
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00069
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00070
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00071
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00072
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00073
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00074
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00075
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00076
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00077
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00078
+✗️ Filtering out 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00000 (containing slow measurements)
+✓️ Keeping 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00001
+✓️ Keeping 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00002
+✓️ Keeping 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00003
+✓️ Keeping 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00004
+✗️ Filtering out b7c63fb5-9d79-4464-8d4f-bd2e68a74bf9-00000 (containing slow measurements)
+✓️ Keeping b7c63fb5-9d79-4464-8d4f-bd2e68a74bf9-00001
+✓️ Keeping b7c63fb5-9d79-4464-8d4f-bd2e68a74bf9-00002
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00000 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00001 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00002 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00003 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00004 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00005 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00006 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00007 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00008 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00009 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00010 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00011 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00012 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00013 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00014 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00015 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00016 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00017 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00018 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00019 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00020 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00021 (not tracked under lab conditions)
+✗️ Filtering out 6e734f5c-ea1f-4194-b666-1907dbe97233-00000 (containing slow measurements)
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00001
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00002
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00003
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00004
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00005
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00006
+✗️ Filtering out 05c8636e-cb90-4385-a145-6866ca249638-00000 (containing slow measurements)
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00001
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00002
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00003
+✗️ Filtering out 05c8636e-cb90-4385-a145-6866ca249638-00004 (containing slow measurements)
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00005
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00006
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00000 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00001 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00002 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00003 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00004 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00005 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00006 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00007 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00008 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00009 (not tracked under lab conditions)
+✗️ Filtering out a1633818-d320-4da6-8551-ca57f4d865e4-00000 (containing slow measurements)
+✓️ Keeping a1633818-d320-4da6-8551-ca57f4d865e4-00001
+✓️ Keeping a1633818-d320-4da6-8551-ca57f4d865e4-00002
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00000 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00001 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00002 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00003 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00004 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00005 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00006 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00007 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00008 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00009 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00010 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00011 (not tracked under lab conditions)
+✗️ Filtering out 8709a578-7c36-4f62-ac57-925fbd1789fe-00000 (containing slow measurements)
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00001
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00002
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00003
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00004
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00005
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00006
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00007
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00008
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00009
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00010
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00011
+✗️ Filtering out 927766dd-291f-4fb3-bc4e-fc280ab77321-00000 (containing slow measurements)
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00001
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00002
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00003
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00004
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00005
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00006
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00007
+✗️ Filtering out b1f33563-e825-41d9-adbf-78b895f43c5a-00000 (containing slow measurements)
+✓️ Keeping b1f33563-e825-41d9-adbf-78b895f43c5a-00001
+✓️ Keeping b1f33563-e825-41d9-adbf-78b895f43c5a-00002
+✓️ Keeping b1f33563-e825-41d9-adbf-78b895f43c5a-00003
+✗️ Filtering out 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00000 (containing slow measurements)
+✓️ Keeping 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00001
+✓️ Keeping 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00002
+✗️ Filtering out 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00003 (containing slow measurements)
+✗️ Filtering out 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00004 (containing slow measurements)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00000 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00001 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00002 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00003 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00004 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00005 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00006 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00007 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00008 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00009 (not tracked under lab conditions)
+✗️ Filtering out 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00000 (containing slow measurements)
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00001
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00002
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00003
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00004
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00005
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00006
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00007
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00008
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00009
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00010
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00011
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00012
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00013
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00014
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00015
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00016
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00017
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00018
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00019
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00020
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00021
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00022
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00023
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00024
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00025
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00026
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00027
+DataFilterer.run kept 1041/1841 dataframes (56.99999999999999%)
+DataFilterer.run finished in 0:00:00.810190
+
+DataTransformer.run started
+DataTransformer.run transformed 1041 dataframes
+DataTransformer.run finished in 0:00:13.801984
+
+DataFilterer.run started
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00000 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00001 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00002 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00003 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00004 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00005 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00006 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00007 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00008 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00009 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00010 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00011 (not tracked under lab conditions)
+✗️ Filtering out c788515a-89a8-42a5-9546-82bc5a7be065-00012 (not tracked under lab conditions)
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00000
+✓️ Keeping 48527a41-ea23-453d-b582-55d4aa974fcc-00001
+✗️ Filtering out 48527a41-ea23-453d-b582-55d4aa974fcc-00002 (containing slow measurements)
+✓️ Keeping d0b715e0-17d7-4c57-84c1-14e9a6d888c7-00000
+✓️ Keeping cf6a6df9-cd2b-453d-b8d5-bf8073c6b044-00000
+✗️ Filtering out 28e4481a-1399-4de9-8d32-e66f119757b4-00000 (containing slow measurements)
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00001
+✓️ Keeping 28e4481a-1399-4de9-8d32-e66f119757b4-00002
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00000 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00001 (not tracked under lab conditions)
+✗️ Filtering out 916b09cf-fd2e-456a-be81-c2ef0128c01e-00002 (not tracked under lab conditions)
+✓️ Keeping f55d38e9-03b4-4b89-b6c0-cfe4ecd5a8c6-00000
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00000
+✓️ Keeping 7ce222c2-4444-48e1-a926-af47030a2ab1-00001
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00000
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00001
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00002
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00003
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-0-00004
+✓️ Keeping cc44daa8-360c-4b54-954c-3a4442362c0c-00000
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00000 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00001 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00002 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00003 (not tracked under lab conditions)
+✗️ Filtering out 1b0c7018-d57b-4aa8-96f8-1e5daa18fc97-00004 (not tracked under lab conditions)
+✗️ Filtering out 0ddfce99-23f1-40a4-b539-f8ab0d235c1c-00000 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00000 (not tracked under lab conditions)
+✗️ Filtering out fc38e0a0-2fb7-48fa-9428-e23d1df12e25-00001 (not tracked under lab conditions)
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00000
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00001
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00002
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00003
+✓️ Keeping 9f7be42c-d051-49df-93eb-2b10526cf822-1-00004
+✗️ Filtering out 38b48263-c6bc-40fc-9e01-e07946a4a1d6-00000 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00000 (not tracked under lab conditions)
+✗️ Filtering out eaeae29f-50c4-4e19-bf20-ebbe471ffbd9-00001 (not tracked under lab conditions)
+✗️ Filtering out 737bf298-fc9f-4c5d-a018-7e86d780b049-00000 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00000 (not tracked under lab conditions)
+✗️ Filtering out 521f7052-88c1-49eb-a1e8-99f60b6f9e02-00001 (not tracked under lab conditions)
+✗️ Filtering out ae562950-380e-4df1-9072-410f33f9dc64-00000 (not tracked under lab conditions)
+✓️ Keeping 33ed0c74-1504-4365-8aff-0a70c2230ea9-00000
+✗️ Filtering out 7959d0c7-6908-4a19-84f7-7bd0285a594f-00000 (not tracked under lab conditions)
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00000
+✓️ Keeping 39a181ce-cfdd-45dc-843b-ff515a46224b-00001
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00000 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00001 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00002 (not tracked under lab conditions)
+✗️ Filtering out 159ca764-8e69-45a9-9fa3-39079fb69985-00003 (not tracked under lab conditions)
+✗️ Filtering out 96cfbbfa-d1ca-44ed-848b-f98fbefe7312-00000 (not tracked under lab conditions)
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00000
+✓️ Keeping a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00001
+✗️ Filtering out a96b5a89-73b3-47d2-ba91-3e06bdcd6feb-00002 (containing slow measurements)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00000 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00001 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00002 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00003 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00004 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00005 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00006 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00007 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00008 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00009 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00010 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00011 (not tracked under lab conditions)
+✗️ Filtering out 15f5016a-c120-4b81-923d-38855d555615-00012 (not tracked under lab conditions)
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00000
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00001
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00002
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00003
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00004
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00005
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00006
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00007
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00008
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00009
+✓️ Keeping f4ee5635-8bf4-4b5a-96e4-b3a42f385893-00010
+✓️ Keeping 181827c6-a675-4238-8b16-de520de09d51-00000
+✗️ Filtering out 45932fbb-b1e0-4c03-a5b6-7ddc2ef6dd91-00000 (containing slow measurements)
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00000
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00001
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00002
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00003
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00004
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00005
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00006
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00007
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00008
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00009
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00010
+✓️ Keeping ec6461f0-3771-4a48-b184-e422cc7a5c11-00011
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00000
+✓️ Keeping 3dac0a69-c190-48f3-bff8-b9ca65151940-00001
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00000 (not tracked under lab conditions)
+✗️ Filtering out ad3458d1-db37-4824-b289-62ce33f43b93-00001 (not tracked under lab conditions)
+✓️ Keeping 375cd3de-11ce-4a01-ad36-8ebc61cba6f9-00000
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00000
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00001
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00002
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00003
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00004
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00005
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00006
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00007
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00008
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00009
+✓️ Keeping 768543b5-6c7f-4de3-ac4c-5b219cdaeb8a-00010
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00000
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00001
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00002
+✓️ Keeping a6e39179-91f4-4a75-95de-c840d53e742b-00003
+✓️ Keeping 5966d2ff-5036-4940-984e-f3b75b101184-00000
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00000 (containing slow measurements)
+✗️ Filtering out 483ee7a5-1d9c-4e43-b635-efe680ae580a-00001 (containing slow measurements)
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00002
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00003
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00004
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00005
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00006
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00007
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00008
+✓️ Keeping 483ee7a5-1d9c-4e43-b635-efe680ae580a-00009
+✓️ Keeping 87111597-b36c-48d4-9369-562edb40e03a-00000
+✗️ Filtering out 177022c9-6ad0-4dfe-85d0-f7f342cbb2b3-00000 (not tracked under lab conditions)
+✗️ Filtering out 4ba5c4a3-bc3d-4a6f-b779-c9af44eaf9a1-00000 (not tracked under lab conditions)
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00000
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00001
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00002
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00003
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00004
+✓️ Keeping 1a4a2dc0-d0e4-4c6a-947e-637fb1031c82-00005
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00000
+✓️ Keeping fe478e2a-e696-42de-be00-ffed49fc66db-00001
+✓️ Keeping 2fbff4eb-b095-4ca6-a48e-70377cf64f28-00000
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00000
+✓️ Keeping a53076f9-fd1a-492e-a84d-be86db0e653a-00001
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00000
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00001
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00002
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00003
+✓️ Keeping 40b1faa6-1ba9-4218-b2b9-0e4979a6b88a-00004
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00000
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00001
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00002
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00003
+✓️ Keeping 06644c66-65ee-40a7-ba9a-29b7ad2aa6a5-00004
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00000
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00001
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00002
+✓️ Keeping 6be55b62-4ee4-4906-ae82-44c93c4e6abe-00003
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00000
+✓️ Keeping 23ac90d7-210b-4f01-8724-7b78e5d11963-00001
+✗️ Filtering out 23ac90d7-210b-4f01-8724-7b78e5d11963-00002 (containing slow measurements)
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00000
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00001
+✓️ Keeping 04637ac9-cd72-4d58-b97c-c1d2dedb6953-00002
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00000
+✓️ Keeping 986c3e9a-e0bf-4ad5-bfd4-d9ee2b16ecfb-00001
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00000
+✗️ Filtering out 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00001 (containing slow measurements)
+✓️ Keeping 73ddcd7d-680f-4b17-9ca3-1ef233563e1f-00002
+✓️ Keeping 28ec7340-d6fa-4d45-aae2-0235aeabfe1e-00000
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00000
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00001
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00002
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00003
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00004
+✓️ Keeping cda86829-42ad-4860-974d-351d9b13e3af-00005
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00000 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00001 (not tracked under lab conditions)
+✗️ Filtering out 825c072a-f9d2-42ce-80fc-fa74b3c32267-00002 (not tracked under lab conditions)
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00000
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00001
+✓️ Keeping 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00002
+✗️ Filtering out 0cbef7ff-c055-4330-b11d-7108f5d00f4d-00003 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00000
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00001
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00002
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00003 (containing slow measurements)
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00004
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00005
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00006
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00007
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00008
+✓️ Keeping 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00009
+✗️ Filtering out 5fcb171f-5280-4094-8dbf-a3a65b71f71a-00010 (containing slow measurements)
+✗️ Filtering out 79d31a65-7652-4724-9f49-1eb9cc52a63b-00000 (containing undefined surface type)
+✗️ Filtering out eba7842f-df33-4dd3-bc50-1aaf3bc2f083-00000 (not tracked under lab conditions)
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00000
+✓️ Keeping 1bf461f4-6309-4fb7-80f5-4bb0d4ebf1d2-00001
+✓️ Keeping 66691eed-5d7c-461a-aa3e-e36681782016-00000
+✓️ Keeping 7a85d4cb-8724-4919-87a2-0ea5500f083b-00000
+✗️ Filtering out 62a53e09-18bb-4e0f-8fb1-dd617ffb9e2b-00000 (not tracked under lab conditions)
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00000
+✓️ Keeping c30021c9-29a0-469f-8f0c-1e4cb6e47c66-00001
+✓️ Keeping f3379a61-5fe1-4f04-aeed-1b9acfe5d631-00000
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00000
+✓️ Keeping 0453e7cd-fd0c-4ffc-8d7a-d61514c31ba9-00001
+✓️ Keeping dff43e55-8241-4b84-ac6e-7b65f8f255f2-00000
+✓️ Keeping a72f240d-2229-4904-86f9-05b556d17921-00000
+✗️ Filtering out ad6b8960-356d-40df-b594-e9ef53e88d2e-00000 (containing undefined surface type)
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00000
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00001
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00002
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00003
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00004
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00005
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00006
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00007
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00008
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00009
+✓️ Keeping 435ed585-a5af-4478-b250-df7187c001e1-00010
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00000 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00001 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00002 (not tracked under lab conditions)
+✗️ Filtering out 51160a61-7eb1-47ee-be8a-865b42d2fded-00003 (not tracked under lab conditions)
+✓️ Keeping 79a2d6d3-b7c7-4c63-8cdb-180f00dfc280-00000
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00000 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00001 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00002 (not tracked under lab conditions)
+✗️ Filtering out 2dd9a840-144f-4743-a408-20c9b4ef01da-00003 (not tracked under lab conditions)
+✗️ Filtering out 1b0e7618-3aea-48a5-a2be-f3e06599c750-00000 (not tracked under lab conditions)
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00000
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00001
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00002
+✓️ Keeping a9e90f8f-f1c2-4442-816e-599747b498ae-00003
+✗️ Filtering out d81721a1-c774-44e8-beb3-51789bef4e1d-00000 (not tracked under lab conditions)
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00000
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00001
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00002
+✓️ Keeping 3faace6f-0b01-4744-9bde-e67e56dddb49-00003
+✗️ Filtering out 6737010e-4ca2-4bf8-b587-06581394346f-00000 (containing slow measurements)
+✓️ Keeping 976d1629-d868-4990-837a-4f6ec315a162-00000
+✗️ Filtering out a78b398a-7992-49c3-bdeb-325a57e1e32a-00000 (containing undefined surface type)
+✗️ Filtering out 650e6d57-8727-413f-bb67-655b781e256f-00000 (not tracked under lab conditions)
+✓️ Keeping 5fa074a3-56c4-4502-95f5-710fe5f1ec06-00000
+✓️ Keeping 00de889a-8fed-474d-aa52-1bd7be3b2516-00000
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-1-00007 (not tracked under lab conditions)
+✗️ Filtering out 79d45ce1-7637-490a-ad5b-43cb5209d509-00000 (containing slow measurements)
+✓️ Keeping 79d45ce1-7637-490a-ad5b-43cb5209d509-00001
+✗️ Filtering out 5a1ed829-341d-4128-a6a8-d4dde8f503b2-00000 (containing undefined surface type)
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00000
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00001
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00002
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00003
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00004
+✓️ Keeping a643a461-c11e-4623-a22c-3b161a652bee-00005
+✗️ Filtering out a643a461-c11e-4623-a22c-3b161a652bee-00006 (containing slow measurements)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00000 (not tracked under lab conditions)
+✗️ Filtering out 1a520d19-bb78-48b7-aa5a-9a7c6c8de73b-00001 (not tracked under lab conditions)
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00000
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00001
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00002
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00003
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00004
+✓️ Keeping 7acf96cb-a7cd-4435-850a-014bb55cd114-00005
+✓️ Keeping 9b5cbd93-c65c-480f-9fab-bdcfc2b68d07-00000
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00000 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00001 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00002 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00003 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00004 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00005 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00006 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00007 (not tracked under lab conditions)
+✗️ Filtering out b44d874b-8a72-49d5-b329-e6ad5858dddf-00008 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-0-00007 (not tracked under lab conditions)
+✗️ Filtering out be0312cd-89ed-446d-936d-19e028e3cd45-00000 (containing undefined surface type)
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00000 (containing slow measurements)
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00001 (containing undefined surface type)
+✗️ Filtering out 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00002 (containing undefined surface type)
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00003
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00004
+✓️ Keeping 57676c5a-d8bc-477b-9afe-cd54e0534cbf-00005
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00000 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00001 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00002 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00003 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00004 (not tracked under lab conditions)
+✗️ Filtering out d9114489-29fa-4677-a225-b74f9b14aa61-00005 (not tracked under lab conditions)
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00000
+✓️ Keeping b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00001
+✗️ Filtering out b8aa6b37-45de-464c-8851-02dfbbf9ea4d-00002 (containing slow measurements)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-2-00007 (not tracked under lab conditions)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00000
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00001
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00002
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00003 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00004
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00005 (containing slow measurements)
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00006
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00007
+✓️ Keeping c05b8606-5590-4397-99ed-35241d78d29a-00008
+✗️ Filtering out c05b8606-5590-4397-99ed-35241d78d29a-00009 (containing slow measurements)
+✓️ Keeping 09f53162-c3f9-4405-986d-485206a5ff59-00000
+✓️ Keeping 0d1414f3-d959-41d8-8349-dbe3481ba149-00000
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00000 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00001 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00002 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00003 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00004 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00005 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00006 (not tracked under lab conditions)
+✗️ Filtering out 3e85a4d9-b7a7-47ef-b901-d8b355d1a83b-3-00007 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00000 (not tracked under lab conditions)
+✗️ Filtering out 6829de33-aa39-48ff-a809-5a8a92c2a471-00001 (not tracked under lab conditions)
+✗️ Filtering out 3bb46e8f-7d1d-42e8-b0ef-2519a6edda87-00000 (containing slow measurements)
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00000
+✓️ Keeping 5498723f-e9db-4ceb-87f2-261fce45fb13-00001
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00000
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00001
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00002
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00003
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00004
+✓️ Keeping f2970292-7c15-4bce-997c-d34ea8cf21d0-00005
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00000
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00001
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00002
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00003
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00004
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00005
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00006
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00007
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00008
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00009
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00010
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00011
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00012
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00013
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00014
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00015
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00016
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00017
+✓️ Keeping aa460e9e-5072-4184-b5d4-d40d99b4c733-00018
+✓️ Keeping 140c11c4-cb2f-4c0d-91c1-3c5735ca16e5-00000
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00000 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00001 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00002 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00003 (not tracked under lab conditions)
+✗️ Filtering out bd1cb700-66d0-48b9-8d3d-61de9a5c4c70-00004 (not tracked under lab conditions)
+✓️ Keeping 6e734f5c-ea1f-4194-b666-1907dbe97233-00000
+✓️ Keeping 05c8636e-cb90-4385-a145-6866ca249638-00000
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00000 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-1-00001 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00000 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00001 (not tracked under lab conditions)
+✗️ Filtering out d4efb84d-c733-4167-91a0-ed76ed83f2c5-00002 (not tracked under lab conditions)
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00000
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00001
+✓️ Keeping 8709a578-7c36-4f62-ac57-925fbd1789fe-00002
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00000
+✓️ Keeping 927766dd-291f-4fb3-bc4e-fc280ab77321-00001
+✓️ Keeping b1f33563-e825-41d9-adbf-78b895f43c5a-00000
+✓️ Keeping 1fcf81f2-b692-47a9-9e31-e97c644fa9f6-00000
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00000 (not tracked under lab conditions)
+✗️ Filtering out 171e7142-7302-4ef6-81b1-6b92aaca6844-0-00001 (not tracked under lab conditions)
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00000
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00001
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00002
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00003
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00004
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00005
+✓️ Keeping 1f3b5e1e-ffc4-4941-b268-04416bbafb19-00006
+DataFilterer.run kept 236/396 dataframes (60.0%)
+DataFilterer.run finished in 0:00:00.239545
+
+DataTransformer.run started
+DataTransformer.run transformed 236 dataframes
+DataTransformer.run finished in 0:00:04.160727
+
+DataResampler.run_down_sampling started
+smallest class is fine gravel with 179 samples
+target class size is 268
+DataResampler.run_down_sampling kept 1041 of 1041 dataframes after down-sampling (100.0%)
+DataResampler.run_down_sampling finished in 0:00:00.247600
+
+BikeActivitySurfaceTypePlotter.run_bar started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run_bar plotted surface types
+BikeActivitySurfaceTypePlotter.run_bar finished in 0:00:00.518476
+
+BikeActivitySurfaceTypePlotter.run_bar started
+✓️ Plotting surface_type_test
+BikeActivitySurfaceTypePlotter.run_bar plotted surface types
+BikeActivitySurfaceTypePlotter.run_bar finished in 0:00:00.478820
+
+BikeActivitySurfaceTypePlotter.run_bar started
+✓️ Plotting surface_type_train_resampled
+BikeActivitySurfaceTypePlotter.run_bar plotted surface types
+BikeActivitySurfaceTypePlotter.run_bar finished in 0:00:00.427112
+Modelling started with knn-dtw
+* train dataframes 1041
+* test dataframes 236
+
+ Split # 1/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.430086
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.442652
+🧄 Split 1/10 finished in 0:32:33.925411 with validation metrics
+* accuracy 0.55
+* precision 0.59
+* recall 0.58
+* f1 score 0.56
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.45
+🧄 Split 1/10 finished in 0:32:34.195543 with validation metrics
+* accuracy 0.48
+* precision 0.53
+* recall 0.49
+* f1 score 0.47
+* cohen's kappa score 0.34
+* matthews correlation coefficient 0.35
+🧄 Split 1/10 finished in 0:32:34.210840 with validation metrics
+* accuracy 0.53
+* precision 0.56
+* recall 0.54
+* f1 score 0.54
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.41
+🧄 Split 1/10 finished in 0:32:34.225417 with validation metrics
+* accuracy 0.51
+* precision 0.54
+* recall 0.52
+* f1 score 0.51
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.39
+🧄 Split 1/10 finished in 0:32:34.239863 with validation metrics
+* accuracy 0.5
+* precision 0.54
+* recall 0.52
+* f1 score 0.5
+* cohen's kappa score 0.38
+* matthews correlation coefficient 0.4
+🧄 Split 1/10 finished in 0:32:34.254139 with validation metrics
+* accuracy 0.49
+* precision 0.49
+* recall 0.49
+* f1 score 0.48
+* cohen's kappa score 0.36
+* matthews correlation coefficient 0.36
+🧄 Split 1/10 finished in 0:32:34.268331 with validation metrics
+* accuracy 0.5
+* precision 0.5
+* recall 0.5
+* f1 score 0.49
+* cohen's kappa score 0.36
+* matthews correlation coefficient 0.37
+🧄 Split 1/10 finished in 0:32:34.282424 with validation metrics
+* accuracy 0.53
+* precision 0.57
+* recall 0.55
+* f1 score 0.54
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.42
+🧄 Split 1/10 finished in 0:32:34.296147 with validation metrics
+* accuracy 0.52
+* precision 0.56
+* recall 0.53
+* f1 score 0.53
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.41
+🧄 Split 1/10 finished in 0:32:34.309276 with validation metrics
+* accuracy 0.53
+* precision 0.56
+* recall 0.55
+* f1 score 0.54
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.42
+best validation with k=1 : 0.4545314738764812
+
+ Split # 2/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.411304
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.265297
+🧅 Split 2/10 finished in 0:28:24.040099 with validation metrics
+* accuracy 0.54
+* precision 0.56
+* recall 0.52
+* f1 score 0.53
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.42
+🧅 Split 2/10 finished in 0:28:24.289986 with validation metrics
+* accuracy 0.5
+* precision 0.51
+* recall 0.48
+* f1 score 0.46
+* cohen's kappa score 0.36
+* matthews correlation coefficient 0.37
+🧅 Split 2/10 finished in 0:28:24.308557 with validation metrics
+* accuracy 0.53
+* precision 0.53
+* recall 0.51
+* f1 score 0.51
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.41
+🧅 Split 2/10 finished in 0:28:24.326174 with validation metrics
+* accuracy 0.55
+* precision 0.55
+* recall 0.52
+* f1 score 0.53
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.43
+🧅 Split 2/10 finished in 0:28:24.344987 with validation metrics
+* accuracy 0.54
+* precision 0.54
+* recall 0.51
+* f1 score 0.52
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.42
+🧅 Split 2/10 finished in 0:28:24.362945 with validation metrics
+* accuracy 0.56
+* precision 0.56
+* recall 0.53
+* f1 score 0.54
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.44
+🧅 Split 2/10 finished in 0:28:24.379679 with validation metrics
+* accuracy 0.58
+* precision 0.56
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.47
+🧅 Split 2/10 finished in 0:28:24.396123 with validation metrics
+* accuracy 0.62
+* precision 0.59
+* recall 0.59
+* f1 score 0.58
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.52
+🧅 Split 2/10 finished in 0:28:24.412785 with validation metrics
+* accuracy 0.6
+* precision 0.57
+* recall 0.57
+* f1 score 0.56
+* cohen's kappa score 0.49
+* matthews correlation coefficient 0.49
+🧅 Split 2/10 finished in 0:28:24.431728 with validation metrics
+* accuracy 0.61
+* precision 0.59
+* recall 0.58
+* f1 score 0.58
+* cohen's kappa score 0.5
+* matthews correlation coefficient 0.5
+best validation with k=8 : 0.4203106192356927
+
+ Split # 3/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.424170
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.353932
+🌽 Split 3/10 finished in 0:28:36.549020 with validation metrics
+* accuracy 0.58
+* precision 0.64
+* recall 0.59
+* f1 score 0.59
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.48
+🌽 Split 3/10 finished in 0:28:36.804478 with validation metrics
+* accuracy 0.53
+* precision 0.6
+* recall 0.54
+* f1 score 0.53
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.42
+🌽 Split 3/10 finished in 0:28:36.818488 with validation metrics
+* accuracy 0.56
+* precision 0.6
+* recall 0.56
+* f1 score 0.57
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.45
+🌽 Split 3/10 finished in 0:28:36.832691 with validation metrics
+* accuracy 0.55
+* precision 0.59
+* recall 0.56
+* f1 score 0.55
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.44
+🌽 Split 3/10 finished in 0:28:36.846815 with validation metrics
+* accuracy 0.55
+* precision 0.6
+* recall 0.56
+* f1 score 0.56
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.44
+🌽 Split 3/10 finished in 0:28:36.861042 with validation metrics
+* accuracy 0.54
+* precision 0.59
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.43
+🌽 Split 3/10 finished in 0:28:36.875179 with validation metrics
+* accuracy 0.58
+* precision 0.63
+* recall 0.58
+* f1 score 0.58
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.48
+🌽 Split 3/10 finished in 0:28:36.888896 with validation metrics
+* accuracy 0.57
+* precision 0.61
+* recall 0.57
+* f1 score 0.57
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.47
+🌽 Split 3/10 finished in 0:28:36.902346 with validation metrics
+* accuracy 0.56
+* precision 0.61
+* recall 0.56
+* f1 score 0.57
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.45
+🌽 Split 3/10 finished in 0:28:36.915753 with validation metrics
+* accuracy 0.56
+* precision 0.63
+* recall 0.56
+* f1 score 0.57
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.46
+best validation with k=7 : 0.47697606737766407
+
+ Split # 4/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.333069
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.263340
+🫑 Split 4/10 finished in 0:29:27.089420 with validation metrics
+* accuracy 0.57
+* precision 0.55
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.45
+* matthews correlation coefficient 0.46
+🫑 Split 4/10 finished in 0:29:27.338768 with validation metrics
+* accuracy 0.56
+* precision 0.6
+* recall 0.54
+* f1 score 0.53
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.45
+🫑 Split 4/10 finished in 0:29:27.448717 with validation metrics
+* accuracy 0.55
+* precision 0.54
+* recall 0.54
+* f1 score 0.54
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.43
+🫑 Split 4/10 finished in 0:29:27.467766 with validation metrics
+* accuracy 0.61
+* precision 0.61
+* recall 0.6
+* f1 score 0.6
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🫑 Split 4/10 finished in 0:29:27.482636 with validation metrics
+* accuracy 0.61
+* precision 0.62
+* recall 0.6
+* f1 score 0.6
+* cohen's kappa score 0.5
+* matthews correlation coefficient 0.51
+🫑 Split 4/10 finished in 0:29:27.496495 with validation metrics
+* accuracy 0.6
+* precision 0.6
+* recall 0.59
+* f1 score 0.59
+* cohen's kappa score 0.49
+* matthews correlation coefficient 0.5
+🫑 Split 4/10 finished in 0:29:27.510292 with validation metrics
+* accuracy 0.59
+* precision 0.59
+* recall 0.59
+* f1 score 0.58
+* cohen's kappa score 0.48
+* matthews correlation coefficient 0.49
+🫑 Split 4/10 finished in 0:29:27.524267 with validation metrics
+* accuracy 0.61
+* precision 0.61
+* recall 0.61
+* f1 score 0.6
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🫑 Split 4/10 finished in 0:29:27.538100 with validation metrics
+* accuracy 0.57
+* precision 0.57
+* recall 0.57
+* f1 score 0.56
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.46
+🫑 Split 4/10 finished in 0:29:27.552386 with validation metrics
+* accuracy 0.58
+* precision 0.57
+* recall 0.58
+* f1 score 0.57
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.48
+best validation with k=8 : 0.4550453686435616
+
+ Split # 5/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.307516
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.262364
+🥦 Split 5/10 finished in 8:02:41.499432 with validation metrics
+* accuracy 0.53
+* precision 0.5
+* recall 0.5
+* f1 score 0.5
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.4
+🥦 Split 5/10 finished in 8:02:42.171505 with validation metrics
+* accuracy 0.53
+* precision 0.5
+* recall 0.49
+* f1 score 0.48
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.4
+🥦 Split 5/10 finished in 8:02:42.191266 with validation metrics
+* accuracy 0.52
+* precision 0.53
+* recall 0.5
+* f1 score 0.5
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.4
+🥦 Split 5/10 finished in 8:02:42.208660 with validation metrics
+* accuracy 0.58
+* precision 0.58
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.46
+🥦 Split 5/10 finished in 8:02:42.223082 with validation metrics
+* accuracy 0.62
+* precision 0.6
+* recall 0.58
+* f1 score 0.59
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🥦 Split 5/10 finished in 8:02:42.237088 with validation metrics
+* accuracy 0.62
+* precision 0.61
+* recall 0.6
+* f1 score 0.6
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🥦 Split 5/10 finished in 8:02:42.251143 with validation metrics
+* accuracy 0.63
+* precision 0.64
+* recall 0.62
+* f1 score 0.63
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.53
+🥦 Split 5/10 finished in 8:02:42.265268 with validation metrics
+* accuracy 0.63
+* precision 0.64
+* recall 0.61
+* f1 score 0.62
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.53
+🥦 Split 5/10 finished in 8:02:42.280909 with validation metrics
+* accuracy 0.62
+* precision 0.61
+* recall 0.6
+* f1 score 0.61
+* cohen's kappa score 0.52
+* matthews correlation coefficient 0.52
+🥦 Split 5/10 finished in 8:02:42.295312 with validation metrics
+* accuracy 0.65
+* precision 0.64
+* recall 0.63
+* f1 score 0.63
+* cohen's kappa score 0.56
+* matthews correlation coefficient 0.56
+best validation with k=10 : 0.40360067921380083
+
+ Split # 6/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.378561
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.279824
+🍆 Split 6/10 finished in 0:27:10.615231 with validation metrics
+* accuracy 0.63
+* precision 0.64
+* recall 0.64
+* f1 score 0.63
+* cohen's kappa score 0.54
+* matthews correlation coefficient 0.55
+🍆 Split 6/10 finished in 0:27:10.887087 with validation metrics
+* accuracy 0.56
+* precision 0.6
+* recall 0.54
+* f1 score 0.53
+* cohen's kappa score 0.44
+* matthews correlation coefficient 0.46
+🍆 Split 6/10 finished in 0:27:10.901880 with validation metrics
+* accuracy 0.57
+* precision 0.59
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.47
+🍆 Split 6/10 finished in 0:27:10.916285 with validation metrics
+* accuracy 0.61
+* precision 0.62
+* recall 0.59
+* f1 score 0.59
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🍆 Split 6/10 finished in 0:27:10.930718 with validation metrics
+* accuracy 0.61
+* precision 0.61
+* recall 0.6
+* f1 score 0.59
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+🍆 Split 6/10 finished in 0:27:10.945677 with validation metrics
+* accuracy 0.57
+* precision 0.58
+* recall 0.56
+* f1 score 0.55
+* cohen's kappa score 0.46
+* matthews correlation coefficient 0.47
+🍆 Split 6/10 finished in 0:27:10.960360 with validation metrics
+* accuracy 0.59
+* precision 0.59
+* recall 0.58
+* f1 score 0.56
+* cohen's kappa score 0.48
+* matthews correlation coefficient 0.5
+🍆 Split 6/10 finished in 0:27:10.974843 with validation metrics
+* accuracy 0.61
+* precision 0.61
+* recall 0.6
+* f1 score 0.59
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.52
+🍆 Split 6/10 finished in 0:27:10.989539 with validation metrics
+* accuracy 0.62
+* precision 0.61
+* recall 0.61
+* f1 score 0.6
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.54
+🍆 Split 6/10 finished in 0:27:11.003810 with validation metrics
+* accuracy 0.61
+* precision 0.6
+* recall 0.59
+* f1 score 0.58
+* cohen's kappa score 0.51
+* matthews correlation coefficient 0.51
+best validation with k=1 : 0.549900734326933
+
+ Split # 7/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.337196
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.281711
+🌶️ Split 7/10 finished in 1:12:54.308602 with validation metrics
+* accuracy 0.68
+* precision 0.66
+* recall 0.64
+* f1 score 0.64
+* cohen's kappa score 0.6
+* matthews correlation coefficient 0.6
+🌶️ Split 7/10 finished in 1:12:54.573218 with validation metrics
+* accuracy 0.63
+* precision 0.61
+* recall 0.58
+* f1 score 0.57
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.54
+🌶️ Split 7/10 finished in 1:12:54.589156 with validation metrics
+* accuracy 0.63
+* precision 0.58
+* recall 0.57
+* f1 score 0.56
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.54
+🌶️ Split 7/10 finished in 1:12:54.603695 with validation metrics
+* accuracy 0.72
+* precision 0.67
+* recall 0.67
+* f1 score 0.66
+* cohen's kappa score 0.65
+* matthews correlation coefficient 0.65
+🌶️ Split 7/10 finished in 1:12:54.621020 with validation metrics
+* accuracy 0.69
+* precision 0.64
+* recall 0.65
+* f1 score 0.62
+* cohen's kappa score 0.61
+* matthews correlation coefficient 0.62
+🌶️ Split 7/10 finished in 1:12:54.642934 with validation metrics
+* accuracy 0.67
+* precision 0.62
+* recall 0.62
+* f1 score 0.59
+* cohen's kappa score 0.59
+* matthews correlation coefficient 0.6
+🌶️ Split 7/10 finished in 1:12:54.658213 with validation metrics
+* accuracy 0.68
+* precision 0.63
+* recall 0.63
+* f1 score 0.62
+* cohen's kappa score 0.6
+* matthews correlation coefficient 0.61
+🌶️ Split 7/10 finished in 1:12:54.672969 with validation metrics
+* accuracy 0.71
+* precision 0.67
+* recall 0.67
+* f1 score 0.65
+* cohen's kappa score 0.64
+* matthews correlation coefficient 0.65
+🌶️ Split 7/10 finished in 1:12:54.687457 with validation metrics
+* accuracy 0.7
+* precision 0.65
+* recall 0.66
+* f1 score 0.63
+* cohen's kappa score 0.62
+* matthews correlation coefficient 0.63
+🌶️ Split 7/10 finished in 1:12:54.701965 with validation metrics
+* accuracy 0.71
+* precision 0.67
+* recall 0.67
+* f1 score 0.65
+* cohen's kappa score 0.64
+* matthews correlation coefficient 0.64
+best validation with k=4 : 0.6001790846047166
+
+ Split # 8/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.435869
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.321376
+🧆 Split 8/10 finished in 0:29:12.931330 with validation metrics
+* accuracy 0.61
+* precision 0.63
+* recall 0.64
+* f1 score 0.62
+* cohen's kappa score 0.5
+* matthews correlation coefficient 0.51
+🧆 Split 8/10 finished in 0:29:13.187131 with validation metrics
+* accuracy 0.56
+* precision 0.62
+* recall 0.53
+* f1 score 0.54
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.43
+🧆 Split 8/10 finished in 0:29:13.202026 with validation metrics
+* accuracy 0.6
+* precision 0.63
+* recall 0.58
+* f1 score 0.58
+* cohen's kappa score 0.48
+* matthews correlation coefficient 0.48
+🧆 Split 8/10 finished in 0:29:13.216723 with validation metrics
+* accuracy 0.6
+* precision 0.6
+* recall 0.54
+* f1 score 0.55
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.48
+🧆 Split 8/10 finished in 0:29:13.230871 with validation metrics
+* accuracy 0.63
+* precision 0.63
+* recall 0.59
+* f1 score 0.6
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.53
+🧆 Split 8/10 finished in 0:29:13.244968 with validation metrics
+* accuracy 0.6
+* precision 0.59
+* recall 0.53
+* f1 score 0.55
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.48
+🧆 Split 8/10 finished in 0:29:13.259243 with validation metrics
+* accuracy 0.66
+* precision 0.65
+* recall 0.59
+* f1 score 0.61
+* cohen's kappa score 0.56
+* matthews correlation coefficient 0.56
+🧆 Split 8/10 finished in 0:29:13.273841 with validation metrics
+* accuracy 0.66
+* precision 0.67
+* recall 0.59
+* f1 score 0.61
+* cohen's kappa score 0.56
+* matthews correlation coefficient 0.56
+🧆 Split 8/10 finished in 0:29:13.288461 with validation metrics
+* accuracy 0.69
+* precision 0.67
+* recall 0.63
+* f1 score 0.64
+* cohen's kappa score 0.59
+* matthews correlation coefficient 0.6
+🧆 Split 8/10 finished in 0:29:13.302874 with validation metrics
+* accuracy 0.67
+* precision 0.67
+* recall 0.61
+* f1 score 0.62
+* cohen's kappa score 0.57
+* matthews correlation coefficient 0.57
+best validation with k=9 : 0.5056694400207443
+
+ Split # 9/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.743663
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.278982
+🥙 Split 9/10 finished in 0:29:20.806061 with validation metrics
+* accuracy 0.59
+* precision 0.62
+* recall 0.58
+* f1 score 0.58
+* cohen's kappa score 0.48
+* matthews correlation coefficient 0.49
+🥙 Split 9/10 finished in 0:29:21.069900 with validation metrics
+* accuracy 0.51
+* precision 0.53
+* recall 0.5
+* f1 score 0.48
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.41
+🥙 Split 9/10 finished in 0:29:21.085593 with validation metrics
+* accuracy 0.53
+* precision 0.54
+* recall 0.53
+* f1 score 0.51
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.42
+🥙 Split 9/10 finished in 0:29:21.099826 with validation metrics
+* accuracy 0.56
+* precision 0.58
+* recall 0.56
+* f1 score 0.55
+* cohen's kappa score 0.45
+* matthews correlation coefficient 0.46
+🥙 Split 9/10 finished in 0:29:21.115839 with validation metrics
+* accuracy 0.58
+* precision 0.63
+* recall 0.58
+* f1 score 0.58
+* cohen's kappa score 0.47
+* matthews correlation coefficient 0.49
+🥙 Split 9/10 finished in 0:29:21.130588 with validation metrics
+* accuracy 0.54
+* precision 0.57
+* recall 0.54
+* f1 score 0.54
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.43
+🥙 Split 9/10 finished in 0:29:21.144818 with validation metrics
+* accuracy 0.55
+* precision 0.59
+* recall 0.55
+* f1 score 0.55
+* cohen's kappa score 0.43
+* matthews correlation coefficient 0.45
+🥙 Split 9/10 finished in 0:29:21.158981 with validation metrics
+* accuracy 0.52
+* precision 0.53
+* recall 0.53
+* f1 score 0.5
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.41
+🥙 Split 9/10 finished in 0:29:21.174576 with validation metrics
+* accuracy 0.53
+* precision 0.55
+* recall 0.54
+* f1 score 0.52
+* cohen's kappa score 0.41
+* matthews correlation coefficient 0.42
+🥙 Split 9/10 finished in 0:29:21.189623 with validation metrics
+* accuracy 0.54
+* precision 0.58
+* recall 0.55
+* f1 score 0.54
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.43
+best validation with k=1 : 0.4901798438810425
+
+ Split # 10/10
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_train
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.317565
+
+BikeActivitySurfaceTypePlotter.run started
+✓️ Plotting surface_type_validation
+BikeActivitySurfaceTypePlotter.run plotted surface types
+BikeActivitySurfaceTypePlotter.run finished in 0:00:00.288413
+🍙 Split 10/10 finished in 0:27:01.671570 with validation metrics
+* accuracy 0.57
+* precision 0.57
+* recall 0.56
+* f1 score 0.56
+* cohen's kappa score 0.45
+* matthews correlation coefficient 0.45
+🍙 Split 10/10 finished in 0:27:01.955135 with validation metrics
+* accuracy 0.55
+* precision 0.55
+* recall 0.52
+* f1 score 0.51
+* cohen's kappa score 0.42
+* matthews correlation coefficient 0.43
+🍙 Split 10/10 finished in 0:27:01.970426 with validation metrics
+* accuracy 0.63
+* precision 0.64
+* recall 0.61
+* f1 score 0.6
+* cohen's kappa score 0.54
+* matthews correlation coefficient 0.54
+🍙 Split 10/10 finished in 0:27:01.984586 with validation metrics
+* accuracy 0.65
+* precision 0.65
+* recall 0.64
+* f1 score 0.62
+* cohen's kappa score 0.56
+* matthews correlation coefficient 0.57
+🍙 Split 10/10 finished in 0:27:01.998754 with validation metrics
+* accuracy 0.61
+* precision 0.62
+* recall 0.59
+* f1 score 0.59
+* cohen's kappa score 0.5
+* matthews correlation coefficient 0.51
+🍙 Split 10/10 finished in 0:27:02.012862 with validation metrics
+* accuracy 0.63
+* precision 0.65
+* recall 0.63
+* f1 score 0.61
+* cohen's kappa score 0.54
+* matthews correlation coefficient 0.56
+🍙 Split 10/10 finished in 0:27:02.026856 with validation metrics
+* accuracy 0.63
+* precision 0.64
+* recall 0.63
+* f1 score 0.61
+* cohen's kappa score 0.54
+* matthews correlation coefficient 0.55
+🍙 Split 10/10 finished in 0:27:02.040462 with validation metrics
+* accuracy 0.62
+* precision 0.64
+* recall 0.62
+* f1 score 0.6
+* cohen's kappa score 0.53
+* matthews correlation coefficient 0.55
+🍙 Split 10/10 finished in 0:27:02.053771 with validation metrics
+* accuracy 0.57
+* precision 0.61
+* recall 0.56
+* f1 score 0.55
+* cohen's kappa score 0.45
+* matthews correlation coefficient 0.47
+🍙 Split 10/10 finished in 0:27:02.068015 with validation metrics
+* accuracy 0.6
+* precision 0.61
+* recall 0.59
+* f1 score 0.57
+* cohen's kappa score 0.49
+* matthews correlation coefficient 0.51
+best validation with k=4 : 0.45263943203237167
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-accuracy
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.104598
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-precision
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.098536
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-recall
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.099634
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-f1-score
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.098472
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-cohen-kappa-score
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.100165
+
+TrainingResultPlotterBar.run started
+✓️ Plotting overall-matthew-correlation-coefficient-score
+TrainingResultPlotterBar.run plotted training result
+TrainingResultPlotterBar.run finished in 0:00:00.101271
+Cross-validation metrics
+Mean accuracy 0.58, precision 0.6, recall 0.58, f1 score 0.58, cohen kappa score 0.48, matthew correlation coefficient 0.48
+Standard deviation 0.04, precision 0.05, recall 0.05, f1 score 0.04, cohen kappa score 0.06, matthew correlation coefficient 0.06
+🍱 Validation finished in 13:07:28.397019
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.505436
+Evaluation finished in 1:13:07.268398 with
+* accuracy 0.5
+* precision 0.49
+* recall 0.49
+* f1 score 0.48
+* cohen's kappa score 0.37
+* matthews correlation coefficient 0.37
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.355405
+Evaluation finished in 1:13:08.850566 with
+* accuracy 0.48
+* precision 0.48
+* recall 0.46
+* f1 score 0.44
+* cohen's kappa score 0.33
+* matthews correlation coefficient 0.34
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.671120
+Evaluation finished in 1:13:09.566955 with
+* accuracy 0.49
+* precision 0.49
+* recall 0.48
+* f1 score 0.47
+* cohen's kappa score 0.35
+* matthews correlation coefficient 0.36
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.320191
+Evaluation finished in 1:13:09.926882 with
+* accuracy 0.52
+* precision 0.51
+* recall 0.5
+* f1 score 0.5
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.39
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.341285
+Evaluation finished in 1:13:10.313766 with
+* accuracy 0.5
+* precision 0.5
+* recall 0.49
+* f1 score 0.48
+* cohen's kappa score 0.37
+* matthews correlation coefficient 0.38
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.309666
+Evaluation finished in 1:13:10.663058 with
+* accuracy 0.53
+* precision 0.54
+* recall 0.51
+* f1 score 0.51
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.4
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.313513
+Evaluation finished in 1:13:11.021773 with
+* accuracy 0.51
+* precision 0.51
+* recall 0.5
+* f1 score 0.49
+* cohen's kappa score 0.38
+* matthews correlation coefficient 0.38
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.328135
+Evaluation finished in 1:13:11.399821 with
+* accuracy 0.53
+* precision 0.54
+* recall 0.51
+* f1 score 0.51
+* cohen's kappa score 0.4
+* matthews correlation coefficient 0.4
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.325470
+Evaluation finished in 1:13:11.769878 with
+* accuracy 0.52
+* precision 0.52
+* recall 0.51
+* f1 score 0.5
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.39
+
+ConfusionMatrixPlotter.run started
+ConfusionMatrixPlotter.run plotted confusion matrix
+ConfusionMatrixPlotter.run finished in 0:00:00.320071
+Evaluation finished in 1:13:12.135893 with
+* accuracy 0.52
+* precision 0.53
+* recall 0.51
+* f1 score 0.5
+* cohen's kappa score 0.39
+* matthews correlation coefficient 0.4

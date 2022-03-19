@@ -1,0 +1,21 @@
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.9.30)  19 MAR 2022 15:14
+ system commands enabled.
+**/Users/scf7be/workspace-university/fom-big-data-bike-path-quality-analytics/r
+esults/thesis_main.tex
+
+! Emergency stop.
+<*> ...path-quality-analytics/results/thesis_main.tex
+                                                  
+End of file on the terminal!
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 8 strings out of 478531
+ 100000,383344 words of node,token memory allocated 270 words of node memory still in use:
+   1 hlist, 39 glue_spec nodes
+   avail lists: 2:12,3:1,4:1,5:1
+ 20084 multiletter control sequences out of 65536+600000
+ 22 fonts using 2516239 bytes
+ 0i,0n,0p,105b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
